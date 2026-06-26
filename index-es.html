@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 
 <html lang="es">
+
 <head>
-<!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
-<!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
-<!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
-<!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
-<!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-YMWDE0VTD3"></script>
-<script>
+  <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
+  <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
+  <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
+  <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-YMWDE0VTD3"></script>
+  <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
       dataLayer.push(arguments);
@@ -17,13 +18,13 @@
 
     gtag("config", "G-YMWDE0VTD3");
   </script>
-<script>
+  <script>
     // Tap to expand/collapse cert description on mobile
-    (function(){
+    (function () {
       try {
         const slider = document.querySelector('.cert-slider');
         if (!slider) return;
-        slider.addEventListener('click', function(e){
+        slider.addEventListener('click', function (e) {
           const card = e.target.closest('.cert-card');
           if (!card) return;
           if (e.target.classList.contains('cert-image')) {
@@ -33,13 +34,13 @@
             const modalTitle = document.getElementById('certModalTitle');
             const modalSub = document.getElementById('certModalSub');
             const modalDesc = document.getElementById('certModalDesc');
-            
+
             modalImg.src = e.target.src;
             modalImg.alt = e.target.alt;
             modalTitle.textContent = card.querySelector('.cert-title').textContent;
             modalSub.textContent = card.querySelector('.cert-sub').textContent;
             modalDesc.textContent = card.querySelector('.cert-desc').textContent;
-            
+
             modal.setAttribute('aria-hidden', 'false');
             modal.style.display = 'flex';
             document.body.style.overflow = 'hidden';
@@ -50,39 +51,39 @@
       }
     })();
   </script>
-<!-- Certifications Modal (Glass Effect) -->
-<div aria-hidden="true" aria-modal="true" class="cert-modal-overlay" id="certModalOverlay" role="dialog">
-<div aria-describedby="certModalDesc" aria-labelledby="certModalTitle" class="cert-modal">
-<button aria-label="Close" class="cert-modal-close" id="certModalClose">×</button>
-<div class="cert-modal-body">
-<img alt="Expanded certificate image" class="cert-modal-image" id="certModalImage"/>
-<div class="cert-modal-content">
-<div class="cert-modal-title" id="certModalTitle">Título de certificación</div>
-<div class="cert-modal-sub" id="certModalSub">Vendedor | Fecha</div>
-<div class="cert-modal-desc" id="certModalDesc">Breve descripción...</div>
-</div>
-</div>
-</div>
-</div>
-<script>
+  <!-- Certifications Modal (Glass Effect) -->
+  <div aria-hidden="true" aria-modal="true" class="cert-modal-overlay" id="certModalOverlay" role="dialog">
+    <div aria-describedby="certModalDesc" aria-labelledby="certModalTitle" class="cert-modal">
+      <button aria-label="Close" class="cert-modal-close" id="certModalClose">×</button>
+      <div class="cert-modal-body">
+        <img alt="Expanded certificate image" class="cert-modal-image" id="certModalImage" />
+        <div class="cert-modal-content">
+          <div class="cert-modal-title" id="certModalTitle">Título de certificación</div>
+          <div class="cert-modal-sub" id="certModalSub">Vendedor | Fecha</div>
+          <div class="cert-modal-desc" id="certModalDesc">Breve descripción...</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
     // Modal close functionality
-    (function(){
+    (function () {
       try {
         const modal = document.getElementById('certModalOverlay');
         const closeBtn = document.getElementById('certModalClose');
-        
+
         function closeModal() {
           modal.setAttribute('aria-hidden', 'true');
           modal.style.display = 'none';
           document.body.style.overflow = 'auto';
         }
-        
+
         closeBtn.addEventListener('click', closeModal);
-        modal.addEventListener('click', function(e) {
+        modal.addEventListener('click', function (e) {
           if (e.target === modal) closeModal();
         });
-        
-        document.addEventListener('keydown', function(e) {
+
+        document.addEventListener('keydown', function (e) {
           if (e.key === 'Escape' && modal.style.display === 'flex') {
             closeModal();
           }
@@ -92,41 +93,51 @@
       }
     })();
   </script>
-<!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-<!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-<!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-<!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-<meta content="zMNl24ruDnyqiliYwKNU_r09OkPCDKz0kMBtF9nqiCc" name="google-site-verification"/>
-<!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-<!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-<!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
-<meta charset="utf-8"/>
-<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="index, follow" name="robots"/>
-<meta content="#000" name="theme-color"/>
-<meta content="Portfolio, Visit and know about me &amp; my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions." name="description"/>
-<meta content="vinod jangid,vinod jangid portfolio,Vinod Jangid Portfolio,vinodjangid,vinod jangid site,Vinod Jangid Site,vinod jangid me,vinod jangid web,vinod jangid github,vinodjangid site,vinodjangid uiverse,uiverse,vinod jangid uiverse,vinod jangid frontend developer,frontend developer,vinod jangid jaipur,vinod jaipur" name="keywords"/>
-<meta content="Vinod Jangid" name="author"/>
-<meta content="https://www.vinodjangid.site/src/png/Preview-card-min.png" property="og:image"/>
-<meta content="Portfolio" property="og:title"/>
-<meta content="Hi! My name is Vinod. I'm a web developer and digital visual artist. Visit and know about me &amp; my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions." property="og:description"/>
-<meta content="https://vinodjangid.site" property="og:url"/>
-<meta content="Vinod Jangid Portfolio" property="og:site_name"/>
-<meta content="summary_large_image" name="twitter:card"/>
-<meta content="@Vinod_Jangid07" name="twitter:site"/>
-<meta content="Portfolio" name="twitter:title"/>
-<meta content="Hi! My name is Vinod. I'm a web developer and digital visual artist. Visit and know about me &amp; my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions." name="twitter:description"/>
-<meta content="https://www.vinodjangid.site/src/png/Preview-card-min.png" name="twitter:image"/>
-<title>Portfolio</title>
-<link href="src//lgoo.png" rel="icon" type="image/x-icon"/>
-<!-- aos cdn -->
-<link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet"/>
-<!-- stylesheet -->
-<link href="style.css" rel="stylesheet"/>
-<!-- google fonts-->
-<link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&amp;family=Orbitron&amp;family=Fira+Code&amp;family=Six+Caps" rel="stylesheet"/>
-<style>
+  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
+  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
+  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
+  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
+  <meta content="zMNl24ruDnyqiliYwKNU_r09OkPCDKz0kMBtF9nqiCc" name="google-site-verification" />
+  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
+  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
+  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
+  <meta charset="utf-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="index, follow" name="robots" />
+  <meta content="#000" name="theme-color" />
+  <meta
+    content="Portfolio, Visit and know about me &amp; my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions."
+    name="description" />
+  <meta
+    content="vinod jangid,vinod jangid portfolio,Vinod Jangid Portfolio,vinodjangid,vinod jangid site,Vinod Jangid Site,vinod jangid me,vinod jangid web,vinod jangid github,vinodjangid site,vinodjangid uiverse,uiverse,vinod jangid uiverse,vinod jangid frontend developer,frontend developer,vinod jangid jaipur,vinod jaipur"
+    name="keywords" />
+  <meta content="Vinod Jangid" name="author" />
+  <meta content="https://www.vinodjangid.site/src/png/Preview-card-min.png" property="og:image" />
+  <meta content="Portfolio" property="og:title" />
+  <meta
+    content="Hi! My name is Vinod. I'm a web developer and digital visual artist. Visit and know about me &amp; my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions."
+    property="og:description" />
+  <meta content="https://vinodjangid.site" property="og:url" />
+  <meta content="Vinod Jangid Portfolio" property="og:site_name" />
+  <meta content="summary_large_image" name="twitter:card" />
+  <meta content="@Vinod_Jangid07" name="twitter:site" />
+  <meta content="Portfolio" name="twitter:title" />
+  <meta
+    content="Hi! My name is Vinod. I'm a web developer and digital visual artist. Visit and know about me &amp; my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions."
+    name="twitter:description" />
+  <meta content="https://www.vinodjangid.site/src/png/Preview-card-min.png" name="twitter:image" />
+  <title>Portfolio</title>
+  <link href="src//lgoo.png" rel="icon" type="image/x-icon" />
+  <!-- aos cdn -->
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+  <!-- stylesheet -->
+  <link href="style.css" rel="stylesheet" />
+  <!-- google fonts-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Passions+Conflict&amp;family=Orbitron&amp;family=Fira+Code&amp;family=Six+Caps"
+    rel="stylesheet" />
+  <style>
     /* Mobile responsive styles for volunteer section */
     @media (max-width: 768px) {
       .volunteer-carousel {
@@ -134,62 +145,63 @@
         margin: 0 auto;
         max-width: 100%;
       }
-      
+
       .volunteer-nav {
-        display: none !important; /* Hide navigation arrows on mobile */
+        display: none !important;
+        /* Hide navigation arrows on mobile */
       }
-      
+
       .volunteer-slide {
         flex-direction: column !important;
         text-align: center;
         gap: 20px;
         padding: 20px;
       }
-      
+
       .volunteer-content-left {
         order: 2;
         width: 100% !important;
         padding: 0;
       }
-      
+
       .volunteer-content-right {
         order: 1;
         width: 100% !important;
         display: flex;
         justify-content: center;
       }
-      
+
       .volunteer-content-right img {
         width: 280px !important;
         height: 280px !important;
         max-width: 100%;
         object-fit: cover;
       }
-      
+
       .quote-marks {
         font-size: 18px;
         margin-bottom: 10px;
       }
-      
+
       .volunteer-description {
         font-size: 14px;
         line-height: 1.6;
         margin: 15px 0;
       }
-      
+
       .volunteer-title {
         font-size: 16px;
         margin-top: 15px;
       }
-      
+
       .volunteer-stars {
         margin: 10px 0;
       }
-      
+
       .star {
         font-size: 16px;
       }
-      
+
       /* Add swipe indicators for mobile */
       .volunteer-carousel::before {
         content: "← Swipe to navigate →";
@@ -201,793 +213,986 @@
         opacity: 0.7;
       }
     }
-    
+
     @media (max-width: 480px) {
       .volunteer-carousel {
         padding: 0 15px;
       }
-      
+
       .volunteer-slide {
         padding: 15px;
       }
-      
+
       .volunteer-content-right img {
         width: 240px !important;
         height: 240px !important;
       }
-      
+
       .quote-marks {
         font-size: 16px;
       }
-      
+
       .volunteer-description {
         font-size: 13px;
       }
-      
+
       .volunteer-title {
         font-size: 15px;
       }
     }
   </style>
 </head>
+
 <body class="body">
-<audio id="audioPlayer" loop="" style="display: none">
-<source src="src/mp3/preloader.mp3" type="audio/mp3"/>
-</audio>
-<div id="preloader"></div>
-<noscript>Allow Javascript</noscript>
-<header>
-<div class="cursor-inner" id="cursor-inner"></div>
-<div class="cursor-outer" id="cursor-outer"></div>
-<div class="navbar" id="navbar">
-<div class="hey">¡Ey!</div>
-<div aria-label="vinod jangid logo" class="logo" tabindex="0">
-<div class="logo-top">
-<img alt="animation-head" id="nav-avatar" src="src/webp/mini logo.png"/>
-</div>
-</div>
-<div class="navbar-tabs" id="navbar-tabs">
-<ul class="navbar-tabs-ul">
-<li class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="100">
-<a aria-label="Home menu button" href="#home" tabindex="0">
+  <audio id="audioPlayer" loop="" style="display: none">
+    <source src="src/mp3/preloader.mp3" type="audio/mp3" />
+  </audio>
+  <div id="preloader"></div>
+  <noscript>Allow Javascript</noscript>
+  <header>
+    <div class="cursor-inner" id="cursor-inner"></div>
+    <div class="cursor-outer" id="cursor-outer"></div>
+    <div class="navbar" id="navbar">
+      <div class="hey">¡Ey!</div>
+      <div aria-label="vinod jangid logo" class="logo" tabindex="0">
+        <div class="logo-top">
+          <img alt="animation-head" id="nav-avatar" src="src/webp/mini logo.png" />
+        </div>
+      </div>
+      <div class="navbar-tabs" id="navbar-tabs">
+        <ul class="navbar-tabs-ul">
+          <li class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="100">
+            <a aria-label="Home menu button" href="#home" tabindex="0">
               &lt;Inicio&gt;
             </a>
-</li>
-<li class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="300">
-<a aria-label="about menu button" href="#about">
+          </li>
+          <li class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="300">
+            <a aria-label="about menu button" href="#about">
               &lt;SobreMí&gt;
             </a>
-</li>
-<li class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
-<a aria-label="founder menu button" href="#founder">
+          </li>
+          <li class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+            <a aria-label="founder menu button" href="#founder">
               &lt;Fundadora&gt;
             </a>
-</li>
-<li class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
-<a aria-label="skills menu button" href="#skills">
+          </li>
+          <li class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+            <a aria-label="skills menu button" href="#skills">
               &lt;Habilidades&gt;
             </a>
-</li>
-<li class="navbar-tabs-li nav-dropdown-container" data-aos="fade-down" data-aos-delay="700">
-<a aria-label="projects menu button" href="#projects" style="cursor: default;">&#60;Proyectos&#62; ▾</a>
-<ul class="nav-dropdown"><li><a href="#projects">Proyectos de Software</a></li><li><a href="#homelabs">Laboratorios</a></li></ul></li>
-<li class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
-<a aria-label="Credentials menu button" href="#credentials">&#60;Credenciales&#62;</a>
-</li>
-<!-- Language Selector -->
-<li class="lang-selector-li" data-aos="fade-down" data-aos-delay="800">
-<div class="custom-lang-selector" id="desktop-lang-selector" tabindex="0">
-<div class="selected-lang">
-<span class="flag">🇪🇸</span> <span class="lang-text">ES</span> <span class="chevron">▼</span>
-</div>
-<ul class="lang-dropdown">
-<li><a class="lang-option" href="index.html" style="text-decoration:none;"><span class="flag">🇬🇧</span> English</a></li>
-<li><a class="lang-option" href="index-ar.html" style="text-decoration:none;"><span class="flag">🇸🇦</span> العربية</a></li>
-<li><a class="lang-option active" href="index-es.html" style="text-decoration:none;"><span class="flag">🇪🇸</span> Español</a></li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<!-- Las pestañas de la barra de navegación terminan -->
-</div>
-</header>
-<!-- header ends here -->
-<main>
-<!-- hamburger -->
-<div class="hamburger" data-aos="fade" id="hamburger">
-<div class="hamburgerbase">
-<button aria-label="Menu Button" id="hamburger-button" onclick="hamburgerMenu()" tabindex="0">
-<span class="burger-bar" id="burger-bar1"></span>
-<span class="burger-bar" id="burger-bar2"></span>
-<span class="burger-bar" id="burger-bar3"></span>
-</button>
-</div>
-</div>
-<!-- hamburger -->
-<div class="mobiletogglemenu" id="mobiletogglemenu">
-<ul class="mobile-navbar-tabs-ul" id="mobile-ul">
-<li class="mobile-navbar-tabs-li home activeThismobiletab" id="home-mobile-tab" onclick="hidemenubyli()">
-<a aria-label="Home menu button" href="#home" tabindex="0">
+          </li>
+          <li class="navbar-tabs-li nav-dropdown-container" data-aos="fade-down" data-aos-delay="700">
+            <a aria-label="projects menu button" href="#projects" style="cursor: default;">&#60;Proyectos&#62; ▾</a>
+            <ul class="nav-dropdown">
+              <li><a href="#projects">Proyectos de Software</a></li>
+              <li><a href="#homelabs">Laboratorios</a></li>
+            </ul>
+          </li>
+          <li class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+            <a aria-label="Credentials menu button" href="#credentials">&#60;Credenciales&#62;</a>
+          </li>
+          <!-- Language Selector -->
+          <li class="lang-selector-li" data-aos="fade-down" data-aos-delay="800">
+            <div class="custom-lang-selector" id="desktop-lang-selector" tabindex="0">
+              <div class="selected-lang">
+                <span class="flag">🇪🇸</span> <span class="lang-text">ES</span> <span class="chevron">▼</span>
+              </div>
+              <ul class="lang-dropdown">
+                <li><a class="lang-option" href="index.html" style="text-decoration:none;"><span
+                      class="flag">🇬🇧</span> English</a></li>
+                <li><a class="lang-option" href="index-ar.html" style="text-decoration:none;"><span
+                      class="flag">🇸🇦</span> العربية</a></li>
+                <li><a class="lang-option active" href="index-es.html" style="text-decoration:none;"><span
+                      class="flag">🇪🇸</span> Español</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- Las pestañas de la barra de navegación terminan -->
+    </div>
+  </header>
+  <!-- header ends here -->
+  <main>
+    <!-- hamburger -->
+    <div class="hamburger" data-aos="fade" id="hamburger">
+      <div class="hamburgerbase">
+        <button aria-label="Menu Button" id="hamburger-button" onclick="hamburgerMenu()" tabindex="0">
+          <span class="burger-bar" id="burger-bar1"></span>
+          <span class="burger-bar" id="burger-bar2"></span>
+          <span class="burger-bar" id="burger-bar3"></span>
+        </button>
+      </div>
+    </div>
+    <!-- hamburger -->
+    <div class="mobiletogglemenu" id="mobiletogglemenu">
+      <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
+        <li class="mobile-navbar-tabs-li home activeThismobiletab" id="home-mobile-tab" onclick="hidemenubyli()">
+          <a aria-label="Home menu button" href="#home" tabindex="0">
             &lt;/Inicio&gt;
           </a>
-</li>
-<li class="mobile-navbar-tabs-li about" id="aboutme-mobile-tab" onclick="hidemenubyli()">
-<a aria-label="about menu button" href="#about" tabindex="0">
+        </li>
+        <li class="mobile-navbar-tabs-li about" id="aboutme-mobile-tab" onclick="hidemenubyli()">
+          <a aria-label="about menu button" href="#about" tabindex="0">
             &lt;/SobreMí&gt;
           </a>
-</li>
-<li class="mobile-navbar-tabs-li skills" id="founder-mobile-tab" onclick="hidemenubyli()">
-<a aria-label="founder menu button" href="#founder" tabindex="0">
+        </li>
+        <li class="mobile-navbar-tabs-li skills" id="founder-mobile-tab" onclick="hidemenubyli()">
+          <a aria-label="founder menu button" href="#founder" tabindex="0">
             &lt;/Fundador&gt;
           </a>
-</li>
-<li class="mobile-navbar-tabs-li skills" id="skills-mobile-tab" onclick="hidemenubyli()">
-<a aria-label="skills menu button" href="#skills" tabindex="0">
+        </li>
+        <li class="mobile-navbar-tabs-li skills" id="skills-mobile-tab" onclick="hidemenubyli()">
+          <a aria-label="skills menu button" href="#skills" tabindex="0">
             &lt;/Habilidades&gt;
           </a>
-</li>
-<li class="mobile-navbar-tabs-li projects mobile-nav-dropdown-container" id="projects-mobile-tab" onclick="this.classList.toggle('open')">
-<a aria-label="projects menu button" href="#" style="cursor: pointer;" tabindex="0">&#60;Proyectos&#62; ▾</a>
-<ul class="mobile-nav-dropdown"><li><a href="#projects" onclick="hidemenubyli()">Proyectos de Software</a></li><li><a href="#homelabs" onclick="hidemenubyli()">Laboratorios</a></li></ul></li>
-<li class="mobile-navbar-tabs-li Volunteer" id="Volunteer-mobile-tab" onclick="hidemenubyli()">
-<a aria-label="Credentials menu button" href="#credentials" tabindex="0">&#60;Credenciales&#62;</a>
-</li>
-<!-- Language Selector Mobile -->
-<li class="mobile-navbar-tabs-li lang-selector-mobile">
-<div class="custom-lang-selector" id="mobile-lang-selector" tabindex="0">
-<div class="selected-lang">
-<span class="flag">🇪🇸</span> <span class="lang-text">ES</span> <span class="chevron">▼</span>
-</div>
-<ul class="lang-dropdown">
-<li><a class="lang-option" href="index.html" style="text-decoration:none;"><span class="flag">🇬🇧</span> English</a></li>
-<li><a class="lang-option" href="index-ar.html" style="text-decoration:none;"><span class="flag">🇸🇦</span> العربية</a></li>
-<li><a class="lang-option active" href="index-es.html" style="text-decoration:none;"><span class="flag">🇪🇸</span> Español</a></li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<!-- mobile toggle menu ends -->
-<section class="landing-page-container" id="home">
-<div class="blob"></div>
-<div class="text-content">
-<article data-aos="fade-up" data-aos-delay="0" id="hello-friend">
-<p class="jello">H</p>
-<p class="jello">o</p>
-<p class="jello">l</p>
-<p class="jello">a</p>
-<p class="jello">,</p>
-&nbsp;
-<p class="jello">s</p>
-<p class="jello">o</p>
-<p class="jello">y</p>
-</article>
-<article data-aos="fade-up" data-aos-delay="200" id="name">
-<p class="jello">M</p>
-<p class="jello">o</p>
-<p class="jello">h</p>
-<p class="jello">a</p>
-<p class="jello">m</p>
-<p class="jello">m</p>
-<p class="jello">e</p>
-<p class="jello">d</p>
-&nbsp;
-</article>
-<article data-aos="fade-up" data-aos-delay="400" id="work">
-<div>
-<p class="jello">Z</p>
-<p class="jello">u</p>
-<p class="jello">o</p>
-<p class="jello">r</p>
-<p class="jello">i</p>
-<p class="jello">k</p>
-<p class="jello">i</p>
-</div>
-</article>
-<p data-aos="fade-up" data-aos-delay="600" id="info-para">
-          Aspirante a ingeniero de seguridad en la nube ☁️ | Creador de contenido de CyberTutor 🎥 | Redactor de CyberNews ✍️ | Desarrollador independiente por afición 🧑‍💻 | Estudiante de la Universidad Brunel de Londres 🎓 <br/>
-<br/>
+        </li>
+        <li class="mobile-navbar-tabs-li projects mobile-nav-dropdown-container" id="projects-mobile-tab"
+          onclick="this.classList.toggle('open')">
+          <a aria-label="projects menu button" href="#" style="cursor: pointer;" tabindex="0">&#60;Proyectos&#62; ▾</a>
+          <ul class="mobile-nav-dropdown">
+            <li><a href="#projects" onclick="hidemenubyli()">Proyectos de Software</a></li>
+            <li><a href="#homelabs" onclick="hidemenubyli()">Laboratorios</a></li>
+          </ul>
+        </li>
+        <li class="mobile-navbar-tabs-li Volunteer" id="Volunteer-mobile-tab" onclick="hidemenubyli()">
+          <a aria-label="Credentials menu button" href="#credentials" tabindex="0">&#60;Credenciales&#62;</a>
+        </li>
+        <!-- Language Selector Mobile -->
+        <li class="mobile-navbar-tabs-li lang-selector-mobile" onclick="this.classList.toggle('open')">
+          <div class="custom-lang-selector" id="mobile-lang-selector" tabindex="0">
+            <div class="selected-lang">
+              <span class="flag">🇪🇸</span> <span class="lang-text">ES</span> <span class="chevron">▼</span>
+            </div>
+            <ul class="lang-dropdown">
+              <li><a class="lang-option" href="index.html" style="text-decoration:none;"><span class="flag">🇬🇧</span>
+                  English</a></li>
+              <li><a class="lang-option" href="index-ar.html" style="text-decoration:none;"><span
+                    class="flag">🇸🇦</span> العربية</a></li>
+              <li><a class="lang-option active" href="index-es.html" style="text-decoration:none;"><span
+                    class="flag">🇪🇸</span> Español</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- mobile toggle menu ends -->
+    <section class="landing-page-container" id="home">
+      <div class="blob"></div>
+      <div class="text-content">
+        <article data-aos="fade-up" data-aos-delay="0" id="hello-friend">
+          <p class="jello">H</p>
+          <p class="jello">o</p>
+          <p class="jello">l</p>
+          <p class="jello">a</p>
+          <p class="jello">,</p>
+          &nbsp;
+          <p class="jello">s</p>
+          <p class="jello">o</p>
+          <p class="jello">y</p>
+        </article>
+        <article data-aos="fade-up" data-aos-delay="200" id="name">
+          <p class="jello">M</p>
+          <p class="jello">o</p>
+          <p class="jello">h</p>
+          <p class="jello">a</p>
+          <p class="jello">m</p>
+          <p class="jello">m</p>
+          <p class="jello">e</p>
+          <p class="jello">d</p>
+          &nbsp;
+        </article>
+        <article data-aos="fade-up" data-aos-delay="400" id="work">
+          <div>
+            <p class="jello">Z</p>
+            <p class="jello">u</p>
+            <p class="jello">o</p>
+            <p class="jello">r</p>
+            <p class="jello">i</p>
+            <p class="jello">k</p>
+            <p class="jello">i</p>
+          </div>
+        </article>
+        <p data-aos="fade-up" data-aos-delay="600" id="info-para">
+          Aspirante a ingeniero de seguridad en la nube ☁️ | Creador de contenido de CyberTutor 🎥 | Redactor de
+          CyberNews ✍️ | Desarrollador independiente por afición 🧑‍💻 | Estudiante de la Universidad Brunel de Londres
+          🎓 <br />
+          <br />
           Valoro la constancia, la disciplina, el autoaprendizaje y el pensamiento creativo.
         </p>
-<div class="contact-btn-div" data-aos="fade-up" data-aos-delay="800">
-<a href="https://www.linkedin.com/in/mohammed-zuoriki-856133250/" tabindex="-1">
-<button class="letsTalkBtn">
-<p class="letsTalkBtn-text">¡Hablemos!</p>
-<span class="letsTalkBtn-BG"></span>
-</button></a>
-<div class="setting-container" id="setting-container">
-<input id="switchforsetting" onclick="settingtoggle()" type="checkbox"/>
-<label aria-label="settings for sound and appearance" class="needtobeinvert" for="switchforsetting" id="labelforsetting" tabindex="0"></label>
-<input id="switchforvisualmode" onclick="visualmode()" type="checkbox"/>
-<label aria-label="switch appearance" for="switchforvisualmode" id="labelforvisualmode" tabindex="0"></label>
-</div>
-<div class="soundtogglebuttoncontainer" id="soundtogglebuttoncontainer">
-<input id="switchforsound" onclick="playpause()" type="checkbox"/>
-<label aria-label="switch sound" class="needtobeinvert" for="switchforsound" id="labelforsound" tabindex="0"></label>
-</div>
-</div>
-<!-- configuración de extremos div -->
-</div>
-<!-- contact-btn-div -->
-</section>
-<!-- landing page ends here -->
-<section class="about-section-container" data-aos="fade-up" id="about">
-<div class="about-section">
-<div class="section-heading">
-<h2 aria-label="About me heading" class="section-heading-article" tabindex="0">
+        <div class="contact-btn-div" data-aos="fade-up" data-aos-delay="800">
+          <a href="https://www.linkedin.com/in/mohammed-zuoriki-856133250/" tabindex="-1">
+            <button class="letsTalkBtn">
+              <p class="letsTalkBtn-text">¡Hablemos!</p>
+              <span class="letsTalkBtn-BG"></span>
+            </button></a>
+          <div class="setting-container" id="setting-container">
+            <input id="switchforsetting" onclick="settingtoggle()" type="checkbox" />
+            <label aria-label="settings for sound and appearance" class="needtobeinvert" for="switchforsetting"
+              id="labelforsetting" tabindex="0"></label>
+            <input id="switchforvisualmode" onclick="visualmode()" type="checkbox" />
+            <label aria-label="switch appearance" for="switchforvisualmode" id="labelforvisualmode"
+              tabindex="0"></label>
+          </div>
+          <div class="soundtogglebuttoncontainer" id="soundtogglebuttoncontainer">
+            <input id="switchforsound" onclick="playpause()" type="checkbox" />
+            <label aria-label="switch sound" class="needtobeinvert" for="switchforsound" id="labelforsound"
+              tabindex="0"></label>
+          </div>
+        </div>
+        <!-- configuración de extremos div -->
+      </div>
+      <!-- contact-btn-div -->
+    </section>
+    <!-- landing page ends here -->
+    <section class="about-section-container" data-aos="fade-up" id="about">
+      <div class="about-section">
+        <div class="section-heading">
+          <h2 aria-label="About me heading" class="section-heading-article" tabindex="0">
             &lt;/SobreMí&gt;
           </h2>
-<p class="sectionHeadingP"></p>
-</div>
-<div class="info-dp-section">
-<div class="about-info light-text-black">
-<p tabindex="0">
-              La ciberseguridad me entusiasma porque es un campo en el que la curiosidad da resultados reales. Me motiva descubrir no solo cómo funcionan los sistemas, sino también cómo enfrentan las amenazas. Esa mentalidad me mantiene explorando un sector que cambia constantemente y me impulsa a seguir creciendo.
+          <p class="sectionHeadingP"></p>
+        </div>
+        <div class="info-dp-section">
+          <div class="about-info light-text-black">
+            <p tabindex="0">
+              La ciberseguridad me entusiasma porque es un campo en el que la curiosidad da resultados reales. Me motiva
+              descubrir no solo cómo funcionan los sistemas, sino también cómo enfrentan las amenazas. Esa mentalidad me
+              mantiene explorando un sector que cambia constantemente y me impulsa a seguir creciendo.
             </p>
-<br/>
-<p tabindex="0">
-              Ahora que estudio Ciberseguridad en la Universidad Brunel, doy vida a lo aprendido con laboratorios prácticos, concursos y proyectos personales. No espero oportunidades: las creo. A largo plazo, mi objetivo es proteger sistemas críticos como arquitecto de seguridad en la nube, mientras comparto ideas e inspiro a otros mediante contenido y blogs, porque para mí la tecnología trata tanto de construir como de inspirar.
+            <br />
+            <p tabindex="0">
+              Ahora que estudio Ciberseguridad en la Universidad Brunel, doy vida a lo aprendido con laboratorios
+              prácticos, concursos y proyectos personales. No espero oportunidades: las creo. A largo plazo, mi objetivo
+              es proteger sistemas críticos como arquitecto de seguridad en la nube, mientras comparto ideas e inspiro a
+              otros mediante contenido y blogs, porque para mí la tecnología trata tanto de construir como de inspirar.
             </p>
-<br/>
-<p tabindex="0">
-<br/>  Disfruto leer, andar en bicicleta y tomar un buen café, lo que me mantiene con energía y curiosidad. ☕📚
+            <br />
+            <p tabindex="0">
+              <br /> Disfruto leer, andar en bicicleta y tomar un buen café, lo que me mantiene con energía y
+              curiosidad. ☕📚
             </p>
-<!-- Botón de currículum -->
-<button class="resume-btn" id="resume-btn">
-<div class="sign">
-<svg viewbox="0 0 640 512">
-<path d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z"></path>
-</svg>
-</div>
-<a href="https://drive.google.com/drive/folders/13ehVGynW4YQTyu_35EM3OZGL2EIQQljh"><div class="text">CV</div></a>
-</button>
-</div>
-<div class="dp" data-aos="fade-up">
-<img alt="Vinod Jangid" height="300" src="src/new_pfp.PNG" width="300"/>
-</div>
-</div>
-</div>
-</section>
-<!-- about section ends  -->
-<section class="projects-section-container" id="founder">
-<div class="projects-section-div">
-<div class="section-heading" data-aos="fade-up">
-<h2 aria-label="My projects starts from here" class="section-heading-article" tabindex="0">
+            <!-- Botón de currículum -->
+            <button class="resume-btn" id="resume-btn">
+              <div class="sign">
+                <svg viewbox="0 0 640 512">
+                  <path
+                    d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z">
+                  </path>
+                </svg>
+              </div>
+              <a href="https://drive.google.com/drive/folders/13ehVGynW4YQTyu_35EM3OZGL2EIQQljh">
+                <div class="text">CV</div>
+              </a>
+            </button>
+          </div>
+          <div class="dp" data-aos="fade-up">
+            <img alt="Vinod Jangid" height="300" src="src/new_pfp.PNG" width="300" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends  -->
+    <section class="projects-section-container" id="founder">
+      <div class="projects-section-div">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 aria-label="My projects starts from here" class="section-heading-article" tabindex="0">
             &lt;/Fundadora&gt;
           </h2>
-<p class="sectionHeadingP"></p>
-</div>
-<div class="project-boxes-div">
-<div class="project-box-wrapper" data-aos="fade-up">
-<div class="project-box project-box2" id="project-box2">
-<div class="info-div">
-<img alt="atomic asher website favicon" class="faviconforProject" src="src/lgoo.png"/>
-<article class="ProjectHeading">Canal de Youtube CyberTutor</article>
-<p class="ProjectDescription">
-                  Como fundador de CyberTutor, creé este canal de YouTube para hacer que la ciberseguridad sea simple, emocionante y accesible para todos. A través de tutoriales claros, proyectos prácticos y conocimientos del mundo real, mi objetivo es ayudar tanto a principiantes como a profesionales a perfeccionar sus habilidades y mantenerse a la vanguardia en el mundo digital, por si tiene curiosidad.
+          <p class="sectionHeadingP"></p>
+        </div>
+        <div class="project-boxes-div">
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <img alt="atomic asher website favicon" class="faviconforProject" src="src/lgoo.png" />
+                <article class="ProjectHeading">Canal de Youtube CyberTutor</article>
+                <p class="ProjectDescription">
+                  Como fundador de CyberTutor, creé este canal de YouTube para hacer que la ciberseguridad sea simple,
+                  emocionante y accesible para todos. A través de tutoriales claros, proyectos prácticos y conocimientos
+                  del mundo real, mi objetivo es ayudar tanto a principiantes como a profesionales a perfeccionar sus
+                  habilidades y mantenerse a la vanguardia en el mundo digital, por si tiene curiosidad.
                 </p>
-<div class="project-buttons">
-<a aria-label="Visit atomicasher Live" class="cta" href="https://www.youtube.com/@CyberTutor24" target="_blank">
-<span>Ver canal de YouTube</span>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</a>
-</div>
-</div>
-<div class="image-div">
-<img alt="atomicasher website preview image" src="src/cybertutor img.png"/>
-</div>
-</div>
-</div>
-<!-- ---------------------- -->
-<div class="project-box-wrapper" data-aos="fade-up">
-<div class="project-box project-box2" id="project-box2">
-<div class="info-div">
-<img alt="stopscams website favicon" class="faviconforProject" src="src/onescan logo.jpeg"/>
-<article class="ProjectHeading">Aplicación móvil OneScan IOS</article>
-<p class="ProjectDescription">
-                  Creé esta aplicación móvil como un generador de códigos QR de un solo uso, con una interfaz limpia y sencilla. Cada código solo se puede escanear una vez, lo que la hace ideal para boletos, invitaciones y accesos exclusivos, ofreciendo seguridad y comodidad a los usuarios. Además, está disponible en la App Store de Apple por solo £0,99.
+                <div class="project-buttons">
+                  <a aria-label="Visit atomicasher Live" class="cta" href="https://www.youtube.com/@CyberTutor24"
+                    target="_blank">
+                    <span>Ver canal de YouTube</span>
+                    <svg height="10px" viewbox="0 0 13 10" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img alt="atomicasher website preview image" src="src/cybertutor img.png" />
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <img alt="stopscams website favicon" class="faviconforProject" src="src/onescan logo.jpeg" />
+                <article class="ProjectHeading">Aplicación móvil OneScan IOS</article>
+                <p class="ProjectDescription">
+                  Creé esta aplicación móvil como un generador de códigos QR de un solo uso, con una interfaz limpia y
+                  sencilla. Cada código solo se puede escanear una vez, lo que la hace ideal para boletos, invitaciones
+                  y accesos exclusivos, ofreciendo seguridad y comodidad a los usuarios. Además, está disponible en la
+                  App Store de Apple por solo £0,99.
                 </p>
-<div class="project-buttons">
-<a aria-label="Visit stopscams Live" class="cta" href="https://code-tech77.github.io/OneScan-Website/index.html" target="_blank">
-<span>Obtén la app</span>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</a>
-</div>
-</div>
-<div class="image-div">
-<img alt="stopscams website preview image" src="src/onescan img2.png"/>
-</div>
-</div>
-</div>
-<!-- ---------------------- -->
-<div class="project-box-wrapper" data-aos="fade-up">
-<div class="project-box project-box2" id="project-box2">
-<div class="info-div">
-<img alt="notesync website favicon" class="faviconforProject" src="src/lgoo.png"/>
-<article class="ProjectHeading">Blog de cibernoticias </article>
-<p class="ProjectDescription">
-                  Bienvenido al blog Cybernews, tu fuente confiable de novedades y artículos relevantes sobre ciberseguridad y tecnología.
+                <div class="project-buttons">
+                  <a aria-label="Visit stopscams Live" class="cta"
+                    href="https://code-tech77.github.io/OneScan-Website/index.html" target="_blank">
+                    <span>Obtén la app</span>
+                    <svg height="10px" viewbox="0 0 13 10" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img alt="stopscams website preview image" src="src/onescan img2.png" />
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <img alt="notesync website favicon" class="faviconforProject" src="src/lgoo.png" />
+                <article class="ProjectHeading">Blog de cibernoticias </article>
+                <p class="ProjectDescription">
+                  Bienvenido al blog Cybernews, tu fuente confiable de novedades y artículos relevantes sobre
+                  ciberseguridad y tecnología.
                 </p>
-<div class="project-buttons">
-<a aria-label="Visit NoteSync Live" class="cta" href="https://mohammedzuoriki.substack.com/" target="_blank">
-<span>Leer blog cibernético</span>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</a>
-</div>
-</div>
-<div class="image-div">
-<img alt="NoteSync website preview image" src="src/cybernews.png"/>
-</div>
-</div>
-</div>
-<!-- ---------------------- -->
-<div class="project-box-wrapper" data-aos="fade-up">
-<div class="project-box project-box2" id="project-box2">
-<div class="info-div">
-<img alt="withyourdog website favicon" class="faviconforProject" src="src/lgoo.png"/>
-<article class="ProjectHeading">Página de recursos de CyberTutor </article>
-<p class="ProjectDescription">
-                  Página de recursos para estudiantes de CyberTutor: también creé la página de recursos, un centro dedicado repleto de guías de estudio, kits de herramientas, recomendaciones de libros y enlaces seleccionados para ayudar a los estudiantes a profundizar sus conocimientos.
+                <div class="project-buttons">
+                  <a aria-label="Visit NoteSync Live" class="cta" href="https://mohammedzuoriki.substack.com/"
+                    target="_blank">
+                    <span>Leer blog cibernético</span>
+                    <svg height="10px" viewbox="0 0 13 10" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img alt="NoteSync website preview image" src="src/cybernews.png" />
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <img alt="withyourdog website favicon" class="faviconforProject" src="src/lgoo.png" />
+                <article class="ProjectHeading">Página de recursos de CyberTutor </article>
+                <p class="ProjectDescription">
+                  Página de recursos para estudiantes de CyberTutor: también creé la página de recursos, un centro
+                  dedicado repleto de guías de estudio, kits de herramientas, recomendaciones de libros y enlaces
+                  seleccionados para ayudar a los estudiantes a profundizar sus conocimientos.
                 </p>
-<div class="project-buttons">
-<a aria-label="Visit withyourdog Live" class="cta" href="https://code-tech77.github.io/Portfolio-/cyber.html" target="_blank">
-<span>Más información</span>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</a>
-</div>
-</div>
-<div class="image-div">
-<img alt="withyourdog website preview image" src="src/cybertutor-resource.png"/>
-</div>
-</div>
-</div>
-<!-- ---------------------- -->
-<div class="project-box-wrapper" data-aos="fade-up">
-<div class="project-box project-box2" id="project-box2">
-<div class="info-div">
-<img alt="withyourdog website favicon" class="faviconforProject" src="src/lgoo.png"/>
-<article class="ProjectHeading">IA cibernética Intel  </article>
-<p class="ProjectDescription">
-                  Plataforma de ciberseguridad multiagente impulsada por IA: he desarrollado una plataforma de ciberseguridad impulsada por IA que aprovecha los sistemas multiagente para proporcionar inteligencia sobre amenazas en tiempo real, respuesta automatizada a incidentes y estrategias de defensa proactivas. Este proyecto tiene como objetivo dotar a los equipos de seguridad de herramientas avanzadas para adelantarse a la evolución de las ciberamenazas.
+                <div class="project-buttons">
+                  <a aria-label="Visit withyourdog Live" class="cta"
+                    href="https://code-tech77.github.io/Portfolio-/cyber.html" target="_blank">
+                    <span>Más información</span>
+                    <svg height="10px" viewbox="0 0 13 10" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img alt="withyourdog website preview image" src="src/cybertutor-resource.png" />
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <img alt="withyourdog website favicon" class="faviconforProject" src="src/lgoo.png" />
+                <article class="ProjectHeading">IA cibernética Intel </article>
+                <p class="ProjectDescription">
+                  Plataforma de ciberseguridad multiagente impulsada por IA: he desarrollado una plataforma de
+                  ciberseguridad impulsada por IA que aprovecha los sistemas multiagente para proporcionar inteligencia
+                  sobre amenazas en tiempo real, respuesta automatizada a incidentes y estrategias de defensa
+                  proactivas. Este proyecto tiene como objetivo dotar a los equipos de seguridad de herramientas
+                  avanzadas para adelantarse a la evolución de las ciberamenazas.
                 </p>
-<div class="project-buttons">
-<a aria-label="Visit withyourdog Live" class="cta" href="https://youtu.be/dta7HnA9vy4?si=yule-I09bxJ8Nvti" target="_blank">
-<span>Más información</span>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</a>
-</div>
-</div>
-<div class="image-div">
-<img alt="withyourdog website preview image" src="src/cyberintelAI.png"/>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-</main>
-<section class="skills-section-container" id="skills">
-<div class="skills-section">
-<div class="section-heading" data-aos="fade-up">
-<h2 aria-label="skills heading" class="section-heading-article" tabindex="0">
-            &lt;/Habilidades&gt;
-          </h2>
-<p class="sectionHeadingP"></p>
-</div>
-<div class="frontend-dev-section">
-<h3 aria-label="As a frontend a developer these are the skills i have" class="frontend-dev-heading" data-aos="fade-up" tabindex="0">
-            Tecnologías
-          </h3>
-<ul class="tech-stack-wrapper">
-<li class="tech-stack-box" data-aos="fade-up">
-<img alt="Html skill" class="tech-stack-logo" src="./src/png/htmllogo.png"/>
-<span class="tooltip">HTML</span>
-</li>
-<li class="tech-stack-box" data-aos="fade-up">
-<img alt="css skill" class="tech-stack-logo" src="./src/png/csslogo.png"/>
-<span class="tooltip">CSS</span>
-</li>
-<li class="tech-stack-box" data-aos="fade-up">
-<img alt="js skill" class="tech-stack-logo" src="./src/png/jslogo.png"/>
-<span class="tooltip">JS</span>
-</li>
-<li class="tech-stack-box" data-aos="fade-up">
-<img alt="tailwind skill" class="tech-stack-logo" src="./src/png/tailwind.png"/>
-<span class="tooltip">WSL</span>
-</li>
-<li class="tech-stack-box" data-aos="fade-up">
-<img alt="react skill" class="tech-stack-logo" src="./src/png/reactlogo.png"/>
-<span class="tooltip">Secuencias de comandos bash</span>
-</li>
-<li class="tech-stack-box" data-aos="fade-up">
-<img alt="nextjs skill" class="tech-stack-logo" src="./src/png/nextlogo.png"/>
-<span class="tooltip">Pitón</span>
-</li>
-<li class="tech-stack-box" data-aos="fade-up">
-<img alt="nodejs skill" class="tech-stack-logo" src="./src/png/node.png"/>
-<span class="tooltip">Marco del matraz</span>
-</li>
-<li class="tech-stack-box" data-aos="fade-up">
-<img alt="astro skill" class="tech-stack-logo" src="./src/png/astro.png"/>
-<span class="tooltip">Rápido</span>
-</li>
-<li class="tech-stack-box" data-aos="fade-up">
-<img alt="github skill" class="tech-stack-logo needtobeinvert" src="./src/png/githublogo.png"/>
-<span class="tooltip">GITHUB</span>
-</li>
-<li class="tech-stack-box" data-aos="fade-up">
-<img alt="git skill" class="tech-stack-logo" src="./src/png/gitlogo.png"/>
-<span class="tooltip">GIT</span>
-</li>
-<li class="tech-stack-box" data-aos="fade-up">
-<img alt="tinacms skill" class="tech-stack-logo" src="./src/png/tinacms.png"/>
-<span class="tooltip">Linux</span>
-</li>
-<li class="tech-stack-box" data-aos="fade-up">
-<img alt="contentful skill" class="tech-stack-logo" src="./src/png/contentfulcms.png"/>
-<span class="tooltip">Estibador</span>
-</li>
-<li class="tech-stack-box" data-aos="fade-up">
-<img alt="c language skill" class="tech-stack-logo" src="./src/png/clogo.png"/>
-<span class="tooltip">RHEL</span>
-</li>
-<li class="tech-stack-box" data-aos="fade-up">
-<img alt="c++ language skill" class="tech-stack-logo" src="./src/png/cpplogo.png"/>
-<span class="tooltip">Ollama LLM<span>
-</span></span></li>
-<li class="tech-stack-box" data-aos="fade-up">
-<img alt="photoshop skill" class="tech-stack-logo" src="./src/png/pslogo.png"/>
-<span class="tooltip">Canva</span>
-</li>
-<li class="tech-stack-box" data-aos="fade-up">
-<img alt="figma skill" class="tech-stack-logo" src="./src/png/figmalogo.png"/>
-<span class="tooltip">FIGMA</span>
-</li>
-<li class="tech-stack-box" data-aos="fade-up">
-<img alt="adobe illustrator skill" class="tech-stack-logo" src="./src/png/ailogo.png"/>
-<span class="tooltip">Obsidiana</span>
-</li>
-</ul>
-</div>
-</div>
-</section>
-<!-- project section ends -->
-<section class="projects-section-container" id="projects">
-<div class="projects-section-div">
-<div class="section-heading" data-aos="fade-up">
-<h2 aria-label="My projects starts from here" class="section-heading-article" tabindex="0">
-            &lt;/ Proyectos de Software&gt;
-          </h2>
-<p class="sectionHeadingP"></p>
-</div>
-<div class="project-boxes-div">
-<div class="project-box-wrapper" data-aos="fade-up">
-<div class="project-box project-box2" id="project-box2">
-<div class="info-div">
-<img alt="atomic asher website favicon" class="faviconforProject" src="src/github icon.png"/>
-<article class="ProjectHeading">Entorno seguro de túnel de red en la nube</article>
-<p class="ProjectDescription">
-                  El proyecto Private WireGuard VPN Gateway es una solución de seguridad basada en la nube que cifra y enruta su tráfico de Internet a través de una instancia privada de Oracle Cloud para lograr la máxima privacidad. Construido con cifrado WireGuard, Estibador y SSH, garantiza una comunicación segura entre su dispositivo y la web.
-                </p>
-<div class="project-buttons">
-<a aria-label="Visit atomicasher Live" class="cta" href="https://github.com/Code-tech77/Secure-Cloud-Network-Tunneling-Environment-SCNTE-" target="_blank">
-<span>Ver documentación</span>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</a>
-</div>
-</div>
-<div class="image-div">
-<img alt="project number 1" src="src/project 1.png"/>
-</div>
-</div>
-</div>
-</div>
-<div class="project-boxes-div">
-<div class="project-box-wrapper" data-aos="fade-up">
-<div class="project-box project-box2" id="project-box2">
-<div class="info-div">
-<img alt="atomic asher website favicon" class="faviconforProject" src="src/github icon.png"/>
-<article class="ProjectHeading">LexiAI: resumidor de noticias inteligente</article>
-<p class="ProjectDescription">
-                 Transforma artículos de noticias extensos en información concisa utilizando PNL. Construido con herramientas Pitón (Flask), JavaScript y NLP como LexRank y periódico3k.
-                </p>
-<div class="project-buttons">
-<a aria-label="Visit atomicasher Live" class="cta" href="https://github.com/Code-tech77/LexiAI" target="_blank">
-<span>Ver documentación</span>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</a>
-</div>
-</div>
-<div class="image-div">
-<img alt="project number 1" src="src/project 2.png"/>
-</div>
-</div>
-</div>
-<!-- ---------------------- -->
-<div class="project-box-wrapper" data-aos="fade-up">
-<div class="project-box project-box2" id="project-box2">
-<div class="info-div">
-<img alt="stopscams website favicon" class="faviconforProject" src="src/github icon.png"/>
-<article class="ProjectHeading">Asistente de IA local</article>
-<p class="ProjectDescription">
-                  Localizar IA: este proyecto es uno de mis proyectos favoritos que utiliza una combinación de pilas de tecnología como (Estibador - Linux "Ubuntu" y modelo ollama) y lo configuré usando Windows CMD con WSL y lo ejecuté localmente usando uno de los mejores sistemas de toma de notas de obsidiana.
-                </p>
-<div class="project-buttons">
-<a aria-label="Visit stopscams Live" class="cta" href="https://github.com/Code-tech77/Local-AI" target="_blank">
-<span>Ver documentación</span>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</a>
-</div>
-</div>
-<div class="image-div">
-<img alt="stopscams website preview image" src="src/project 3.png"/>
-</div>
-</div>
-</div>
-<!-- ---------------------- -->
-<div class="project-box-wrapper" data-aos="fade-up">
-<div class="project-box project-box2" id="project-box2">
-<div class="info-div">
-<img alt="notesync website favicon" class="faviconforProject" src="src/github icon.png"/>
-<article class="ProjectHeading">Cracker de hash de contraseña</article>
-<p class="ProjectDescription">
-                  Hash Cracker: este proyecto se creó ÚNICAMENTE con fines educativos, cuya funcionalidad principal utiliza Pitón que se utiliza para descifrar ambas versiones de hash (MD5 y SHA1) con una interfaz simple que usa HTML y CSS.
-                </p>
-<div class="project-buttons">
-<a aria-label="Visit NoteSync Live" class="cta" href="https://github.com/Code-tech77/Hash-Cracker" target="_blank">
-<span>Ver código fuente</span>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</a>
-</div>
-</div>
-<div class="image-div">
-<img alt="NoteSync website preview image" src="src/project 4.png"/>
-</div>
-</div>
-</div>
-<!-- ---------------------- -->
-<div class="project-box-wrapper" data-aos="fade-up">
-<div class="project-box project-box2" id="project-box2">
-<div class="info-div">
-<img alt="withyourdog website favicon" class="faviconforProject" src="src/github icon.png"/>
-<article class="ProjectHeading">Extensión del organizador de archivos</article>
-<p class="ProjectDescription">
-                  Mini proyecto File Organizer: este es un programa muy liviano que utiliza Pitón. Sin embargo es muy efectivo que si tienes archivos desordenados por todos lados este programa es para ti simple y efectivo.
-                </p>
-<div class="project-buttons">
-<a aria-label="Visit withyourdog Live" class="cta" href="https://github.com/Code-tech77/File-Organizer" target="_blank">
-<span>Ver código fuente</span>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</a>
-</div>
-</div>
-<div class="image-div">
-<img alt="withyourdog website preview image" src="src/project 5.png"/>
-</div>
-</div>
-</div>
-<!-- ---------------------- -->
-<div class="project-box-wrapper" data-aos="fade-up">
-<div class="project-box project-box2" id="project-box2">
-<div class="info-div">
-<img alt="pexelicon website favicon" class="faviconforProject" src="src/github icon.png"/>
-<article class="ProjectHeading">Compañero de estudio inteligente (SSC)</article>
-<p class="ProjectDescription">
-                  Diseñé y desarrollé un "programa completo", que es un asistente de estudio totalmente local y centrado en la privacidad para ayudar a los estudiantes universitarios a extraer respuestas concisas y contextuales directamente de los archivos PDF de sus conferencias.
-                </p>
-<div class="project-buttons">
-<a aria-label="Visit Pexelicons Live" class="cta" href="https://github.com/Code-tech77/Smart-Study-Companion-SSC-" target="_blank">
-<span>Ver código fuente</span>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</a>
-</div>
-</div>
-<div class="image-div">
-<img alt="Pexelicon website preview image" src="src/project6.png"/>
-</div>
-</div>
-</div>
-<!-- --------------------- -->
-</div>
-</div>
-</section>
-<!-- project section ends -->
-<section class="projects-section-container" id="homelabs">
-<div class="projects-section-div">
-<div class="section-heading" data-aos="fade-up">
-<h2 aria-label="My projects starts from here" class="section-heading-article" tabindex="0">
-            &lt;/ laboratorios&gt;
-          </h2>
-<p class="sectionHeadingP"></p>
-</div>
-<div class="project-boxes-div">
-<div class="project-box-wrapper" data-aos="fade-up">
-<div class="project-box project-box2" id="project-box2">
-<div class="info-div">
-<img alt="atomic asher website favicon" class="faviconforProject" src="src/github icon.png"/>
-<article class="ProjectHeading">Sistema de bloqueo de anuncios DNS en toda la red</article>
-<p class="ProjectDescription">
-                  Una solución de bloqueo de anuncios en toda la red que utiliza Pi-hole en una Raspberry Pi y filtra anuncios en todos los dispositivos mediante bloqueo basado en DNS. Integrado con Cloudflare DNS para mejorar la privacidad, la velocidad de navegación y el control de la red, mientras desarrolla habilidades prácticas en instalación, configuración y resolución de problemas de Linux.
-                </p>
-<div class="project-buttons">
-<a aria-label="Visit atomicasher Live" class="cta" href="https://www.linkedin.com/feed/update/urn:li:activity:7451962878653497344/" target="_blank">
-<span>Ver documentación</span>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</a>
-</div>
-</div>
-<div class="image-div">
-<img alt="project number 1" src="src/pi-hole.jpg"/>
-</div>
-</div>
-</div>
-</div></div></section>
-<section class="projects-section-container" id="Volunteer">
-<div class="projects-section-div">
-<div class="section-heading" data-aos="fade-up">
-<h2 aria-label="My volunteer work starts from here" class="section-heading-article" tabindex="0">
+                <div class="project-buttons">
+                  <a aria-label="Visit withyourdog Live" class="cta"
+                    href="https://youtu.be/dta7HnA9vy4?si=yule-I09bxJ8Nvti" target="_blank">
+                    <span>Más información</span>
+                    <svg height="10px" viewbox="0 0 13 10" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img alt="withyourdog website preview image" src="src/cyberintelAI.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <section class="skills-section-container" id="skills">
+    <div class="skills-section">
+      <div class="section-heading" data-aos="fade-up">
+        <h2 aria-label="skills heading" class="section-heading-article" tabindex="0">
+          &lt;/Habilidades&gt;
+        </h2>
+        <p class="sectionHeadingP"></p>
+      </div>
+      <div class="frontend-dev-section">
+        <h3 aria-label="As a frontend a developer these are the skills i have" class="frontend-dev-heading"
+          data-aos="fade-up" tabindex="0">
+          Tecnologías
+        </h3>
+        <ul class="tech-stack-wrapper">
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="Html skill" class="tech-stack-logo" src="./src/png/htmllogo.png" />
+            <span class="tooltip">HTML</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="css skill" class="tech-stack-logo" src="./src/png/csslogo.png" />
+            <span class="tooltip">CSS</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="js skill" class="tech-stack-logo" src="./src/png/jslogo.png" />
+            <span class="tooltip">JS</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="tailwind skill" class="tech-stack-logo" src="./src/png/tailwind.png" />
+            <span class="tooltip">WSL</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="react skill" class="tech-stack-logo" src="./src/png/reactlogo.png" />
+            <span class="tooltip">Secuencias de comandos bash</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="nextjs skill" class="tech-stack-logo" src="./src/png/nextlogo.png" />
+            <span class="tooltip">Pitón</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="nodejs skill" class="tech-stack-logo" src="./src/png/node.png" />
+            <span class="tooltip">Marco del matraz</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="astro skill" class="tech-stack-logo" src="./src/png/astro.png" />
+            <span class="tooltip">Rápido</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="github skill" class="tech-stack-logo needtobeinvert" src="./src/png/githublogo.png" />
+            <span class="tooltip">GITHUB</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="git skill" class="tech-stack-logo" src="./src/png/gitlogo.png" />
+            <span class="tooltip">GIT</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="tinacms skill" class="tech-stack-logo" src="./src/png/tinacms.png" />
+            <span class="tooltip">Linux</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="contentful skill" class="tech-stack-logo" src="./src/png/contentfulcms.png" />
+            <span class="tooltip">Estibador</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="c language skill" class="tech-stack-logo" src="./src/png/clogo.png" />
+            <span class="tooltip">RHEL</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="c++ language skill" class="tech-stack-logo" src="./src/png/cpplogo.png" />
+            <span class="tooltip">Ollama LLM<span>
+              </span></span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="photoshop skill" class="tech-stack-logo" src="./src/png/pslogo.png" />
+            <span class="tooltip">Canva</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="figma skill" class="tech-stack-logo" src="./src/png/figmalogo.png" />
+            <span class="tooltip">FIGMA</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="adobe illustrator skill" class="tech-stack-logo" src="./src/png/ailogo.png" />
+            <span class="tooltip">Obsidiana</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="Notion" class="tech-stack-logo needtobeinvert" src="https://cdn.simpleicons.org/notion/white" />
+            <span class="tooltip">Notion</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="Next.js" class="tech-stack-logo needtobeinvert"
+              src="https://cdn.simpleicons.org/nextdotjs/white" />
+            <span class="tooltip">Next.js</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="Vercel" class="tech-stack-logo needtobeinvert" src="https://cdn.simpleicons.org/vercel/white" />
+            <span class="tooltip">Vercel</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="Node.js" class="tech-stack-logo" src="https://cdn.simpleicons.org/nodedotjs" />
+            <span class="tooltip">Node.js</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="Shell Scripting" class="tech-stack-logo needtobeinvert"
+              src="https://cdn.simpleicons.org/gnubash/white" />
+            <span class="tooltip">Shell Scripting</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="Tailscale" class="tech-stack-logo needtobeinvert"
+              src="https://cdn.simpleicons.org/tailscale/white" />
+            <span class="tooltip">Tailscale</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="Pi-hole" class="tech-stack-logo" src="https://cdn.simpleicons.org/pihole" />
+            <span class="tooltip">Pi-hole</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="SQL" class="tech-stack-logo" src="https://cdn.simpleicons.org/mysql" />
+            <span class="tooltip">SQL</span>
+          </li>
+
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="Firebase" class="tech-stack-logo" src="https://cdn.simpleicons.org/firebase" />
+            <span class="tooltip">Firebase</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="Java" class="tech-stack-logo"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+            <span class="tooltip">Java</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="Hostinger" class="tech-stack-logo" src="https://cdn.simpleicons.org/hostinger" />
+            <span class="tooltip">Hostinger</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="Vite" class="tech-stack-logo" src="https://cdn.simpleicons.org/vite" />
+            <span class="tooltip">Vite</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="TensorFlow" class="tech-stack-logo" src="https://cdn.simpleicons.org/tensorflow" />
+            <span class="tooltip">TensorFlow</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="Kali Linux" class="tech-stack-logo needtobeinvert"
+              src="https://cdn.simpleicons.org/kalilinux/white" />
+            <span class="tooltip">Kali Linux</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="Ubuntu" class="tech-stack-logo" src="https://cdn.simpleicons.org/ubuntu" />
+            <span class="tooltip">Ubuntu</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="Arch Linux" class="tech-stack-logo" src="https://cdn.simpleicons.org/archlinux" />
+            <span class="tooltip">Arch Linux</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="Linux Mint" class="tech-stack-logo" src="https://cdn.simpleicons.org/linuxmint" />
+            <span class="tooltip">Linux Mint</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="Azure" class="tech-stack-logo" src="./png/azure.png" />
+            <span class="tooltip">Azure</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="AWS" class="tech-stack-logo" src="./png/aws.png" />
+            <span class="tooltip">AWS</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="NumPy" class="tech-stack-logo" src="https://cdn.simpleicons.org/numpy" />
+            <span class="tooltip">NumPy</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="Eclipse" class="tech-stack-logo" src="https://cdn.simpleicons.org/eclipseide" />
+            <span class="tooltip">Eclipse</span>
+          </li>
+          <li class="tech-stack-box" data-aos="fade-up">
+            <img alt="VS Code" class="tech-stack-logo" src="./png/vscode.png" />
+            <span class="tooltip">VS Code</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- project section ends -->
+  <section class="projects-section-container" id="projects">
+    <div class="projects-section-div">
+      <div class="section-heading" data-aos="fade-up">
+        <h2 aria-label="My projects starts from here" class="section-heading-article" tabindex="0">
+          &lt;/ Proyectos de Software&gt;
+        </h2>
+        <p class="sectionHeadingP"></p>
+      </div>
+      <div class="project-boxes-div">
+        <div class="project-box-wrapper" data-aos="fade-up">
+          <div class="project-box project-box2" id="project-box2">
+            <div class="info-div">
+              <img alt="atomic asher website favicon" class="faviconforProject" src="src/github icon.png" />
+              <article class="ProjectHeading">Entorno seguro de túnel de red en la nube</article>
+              <p class="ProjectDescription">
+                El proyecto Private WireGuard VPN Gateway es una solución de seguridad basada en la nube que cifra y
+                enruta su tráfico de Internet a través de una instancia privada de Oracle Cloud para lograr la máxima
+                privacidad. Construido con cifrado WireGuard, Estibador y SSH, garantiza una comunicación segura entre
+                su dispositivo y la web.
+              </p>
+              <div class="project-buttons">
+                <a aria-label="Visit atomicasher Live" class="cta"
+                  href="https://github.com/Code-tech77/Secure-Cloud-Network-Tunneling-Environment-SCNTE-"
+                  target="_blank">
+                  <span>Ver documentación</span>
+                  <svg height="10px" viewbox="0 0 13 10" width="15px">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="image-div">
+              <img alt="project number 1" src="src/project 1.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-boxes-div">
+        <div class="project-box-wrapper" data-aos="fade-up">
+          <div class="project-box project-box2" id="project-box2">
+            <div class="info-div">
+              <img alt="atomic asher website favicon" class="faviconforProject" src="src/github icon.png" />
+              <article class="ProjectHeading">LexiAI: resumidor de noticias inteligente</article>
+              <p class="ProjectDescription">
+                Transforma artículos de noticias extensos en información concisa utilizando PNL. Construido con
+                herramientas Pitón (Flask), JavaScript y NLP como LexRank y periódico3k.
+              </p>
+              <div class="project-buttons">
+                <a aria-label="Visit atomicasher Live" class="cta" href="https://github.com/Code-tech77/LexiAI"
+                  target="_blank">
+                  <span>Ver documentación</span>
+                  <svg height="10px" viewbox="0 0 13 10" width="15px">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="image-div">
+              <img alt="project number 1" src="src/project 2.png" />
+            </div>
+          </div>
+        </div>
+        <!-- ---------------------- -->
+        <div class="project-box-wrapper" data-aos="fade-up">
+          <div class="project-box project-box2" id="project-box2">
+            <div class="info-div">
+              <img alt="stopscams website favicon" class="faviconforProject" src="src/github icon.png" />
+              <article class="ProjectHeading">Asistente de IA local</article>
+              <p class="ProjectDescription">
+                Localizar IA: este proyecto es uno de mis proyectos favoritos que utiliza una combinación de pilas de
+                tecnología como (Estibador - Linux "Ubuntu" y modelo ollama) y lo configuré usando Windows CMD con WSL y
+                lo ejecuté localmente usando uno de los mejores sistemas de toma de notas de obsidiana.
+              </p>
+              <div class="project-buttons">
+                <a aria-label="Visit stopscams Live" class="cta" href="https://github.com/Code-tech77/Local-AI"
+                  target="_blank">
+                  <span>Ver documentación</span>
+                  <svg height="10px" viewbox="0 0 13 10" width="15px">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="image-div">
+              <img alt="stopscams website preview image" src="src/project 3.png" />
+            </div>
+          </div>
+        </div>
+        <!-- ---------------------- -->
+        <div class="project-box-wrapper" data-aos="fade-up">
+          <div class="project-box project-box2" id="project-box2">
+            <div class="info-div">
+              <img alt="notesync website favicon" class="faviconforProject" src="src/github icon.png" />
+              <article class="ProjectHeading">Cracker de hash de contraseña</article>
+              <p class="ProjectDescription">
+                Hash Cracker: este proyecto se creó ÚNICAMENTE con fines educativos, cuya funcionalidad principal
+                utiliza Pitón que se utiliza para descifrar ambas versiones de hash (MD5 y SHA1) con una interfaz simple
+                que usa HTML y CSS.
+              </p>
+              <div class="project-buttons">
+                <a aria-label="Visit NoteSync Live" class="cta" href="https://github.com/Code-tech77/Hash-Cracker"
+                  target="_blank">
+                  <span>Ver código fuente</span>
+                  <svg height="10px" viewbox="0 0 13 10" width="15px">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="image-div">
+              <img alt="NoteSync website preview image" src="src/project 4.png" />
+            </div>
+          </div>
+        </div>
+        <!-- ---------------------- -->
+        <div class="project-box-wrapper" data-aos="fade-up">
+          <div class="project-box project-box2" id="project-box2">
+            <div class="info-div">
+              <img alt="withyourdog website favicon" class="faviconforProject" src="src/github icon.png" />
+              <article class="ProjectHeading">Extensión del organizador de archivos</article>
+              <p class="ProjectDescription">
+                Mini proyecto File Organizer: este es un programa muy liviano que utiliza Pitón. Sin embargo es muy
+                efectivo que si tienes archivos desordenados por todos lados este programa es para ti simple y efectivo.
+              </p>
+              <div class="project-buttons">
+                <a aria-label="Visit withyourdog Live" class="cta" href="https://github.com/Code-tech77/File-Organizer"
+                  target="_blank">
+                  <span>Ver código fuente</span>
+                  <svg height="10px" viewbox="0 0 13 10" width="15px">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="image-div">
+              <img alt="withyourdog website preview image" src="src/project 5.png" />
+            </div>
+          </div>
+        </div>
+        <!-- ---------------------- -->
+        <div class="project-box-wrapper" data-aos="fade-up">
+          <div class="project-box project-box2" id="project-box2">
+            <div class="info-div">
+              <img alt="pexelicon website favicon" class="faviconforProject" src="src/github icon.png" />
+              <article class="ProjectHeading">Compañero de estudio inteligente (SSC)</article>
+              <p class="ProjectDescription">
+                Diseñé y desarrollé un "programa completo", que es un asistente de estudio totalmente local y centrado
+                en la privacidad para ayudar a los estudiantes universitarios a extraer respuestas concisas y
+                contextuales directamente de los archivos PDF de sus conferencias.
+              </p>
+              <div class="project-buttons">
+                <a aria-label="Visit Pexelicons Live" class="cta"
+                  href="https://github.com/Code-tech77/Smart-Study-Companion-SSC-" target="_blank">
+                  <span>Ver código fuente</span>
+                  <svg height="10px" viewbox="0 0 13 10" width="15px">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="image-div">
+              <img alt="Pexelicon website preview image" src="src/project6.png" />
+            </div>
+          </div>
+        </div>
+        <!-- --------------------- -->
+      </div>
+    </div>
+  </section>
+  <!-- project section ends -->
+  <section class="projects-section-container" id="homelabs">
+    <div class="projects-section-div">
+      <div class="section-heading" data-aos="fade-up">
+        <h2 aria-label="My projects starts from here" class="section-heading-article" tabindex="0">
+          &lt;/ laboratorios&gt;
+        </h2>
+        <p class="sectionHeadingP"></p>
+      </div>
+      <div class="project-boxes-div">
+        <div class="project-box-wrapper" data-aos="fade-up">
+          <div class="project-box project-box2" id="project-box2">
+            <div class="info-div">
+              <img alt="atomic asher website favicon" class="faviconforProject" src="src/github icon.png" />
+              <article class="ProjectHeading">Sistema de bloqueo de anuncios DNS en toda la red</article>
+              <p class="ProjectDescription">
+                Una solución de bloqueo de anuncios en toda la red que utiliza Pi-hole en una Raspberry Pi y filtra
+                anuncios en todos los dispositivos mediante bloqueo basado en DNS. Integrado con Cloudflare DNS para
+                mejorar la privacidad, la velocidad de navegación y el control de la red, mientras desarrolla
+                habilidades prácticas en instalación, configuración y resolución de problemas de Linux.
+              </p>
+              <div class="project-buttons">
+                <a aria-label="Visit atomicasher Live" class="cta"
+                  href="https://www.linkedin.com/feed/update/urn:li:activity:7451962878653497344/" target="_blank">
+                  <span>Ver documentación</span>
+                  <svg height="10px" viewbox="0 0 13 10" width="15px">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="image-div">
+              <img alt="project number 1" src="src/pi-hole.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="projects-section-container" id="Volunteer">
+    <div class="projects-section-div">
+      <div class="section-heading" data-aos="fade-up">
+        <h2 aria-label="My volunteer work starts from here" class="section-heading-article" tabindex="0">
           &lt;/Trabajo Voluntario&gt;
         </h2>
-<p class="sectionHeadingP"></p>
-</div>
-<div class="volunteer-carousel" data-aos="fade-up" style="position: relative;">
-<!-- Flechas de navegación (izquierda/derecha) -->
-<button aria-label="Previous volunteer" class="volunteer-nav volunteer-nav-left" id="volunteerPrev" style="position: absolute; top: 50%; left: -40px; transform: translateY(-50%); z-index: 2; background: none; border: none; cursor: pointer;">
-<svg height="32" viewbox="0 0 24 24" width="32">
-<path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" fill="currentColor"></path>
-</svg>
-</button>
-<button aria-label="Next volunteer" class="volunteer-nav volunteer-nav-right" id="volunteerNext" style="position: absolute; top: 50%; right: -40px; transform: translateY(-50%); z-index: 2; background: none; border: none; cursor: pointer;">
-<svg height="32" viewbox="0 0 24 24" width="32">
-<path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z" fill="currentColor"></path>
-</svg>
-</button>
-<div class="volunteer-track" id="volunteerTrack">
-<div class="volunteer-slide active" data-index="0">
-<div class="volunteer-content-left">
-<div class="quote-marks">Proyecto Juvenil Ayesha (AVP)</div>
-<div class="volunteer-stars">
-<span class="star">★</span>
-<span class="star">★</span>
-<span class="star">★</span>
-<span class="star">★</span>
-<span class="star">★</span>
-</div>
-<p class="volunteer-description">
-                Este es mi primer puesto en la organización del proyecto juvenil Ayesha, donde he sido responsable de recaudar dinero para la acción humanitaria. A lo largo de este puesto, recaudé más de £400 para esta recaudación de fondos... lo que creo que ayudará a una amplia gama de personas que lo necesitan.
+        <p class="sectionHeadingP"></p>
+      </div>
+      <div class="volunteer-carousel" data-aos="fade-up" style="position: relative;">
+        <!-- Flechas de navegación (izquierda/derecha) -->
+        <button aria-label="Previous volunteer" class="volunteer-nav volunteer-nav-left" id="volunteerPrev"
+          style="position: absolute; top: 50%; left: -40px; transform: translateY(-50%); z-index: 2; background: none; border: none; cursor: pointer;">
+          <svg height="32" viewbox="0 0 24 24" width="32">
+            <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" fill="currentColor"></path>
+          </svg>
+        </button>
+        <button aria-label="Next volunteer" class="volunteer-nav volunteer-nav-right" id="volunteerNext"
+          style="position: absolute; top: 50%; right: -40px; transform: translateY(-50%); z-index: 2; background: none; border: none; cursor: pointer;">
+          <svg height="32" viewbox="0 0 24 24" width="32">
+            <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z" fill="currentColor"></path>
+          </svg>
+        </button>
+        <div class="volunteer-track" id="volunteerTrack">
+          <div class="volunteer-slide active" data-index="0">
+            <div class="volunteer-content-left">
+              <div class="quote-marks">Proyecto Juvenil Ayesha (AVP)</div>
+              <div class="volunteer-stars">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+              </div>
+              <p class="volunteer-description">
+                Este es mi primer puesto en la organización del proyecto juvenil Ayesha, donde he sido responsable de
+                recaudar dinero para la acción humanitaria. A lo largo de este puesto, recaudé más de £400 para esta
+                recaudación de fondos... lo que creo que ayudará a una amplia gama de personas que lo necesitan.
               </p>
-<h3 class="volunteer-title">Voluntario de recaudación de fondos</h3>
-</div>
-<div class="volunteer-content-right">
-<img alt="Professional Add" height="410" src="src/fundraiser-icon-design-free-png-3667729741.png" style="border-radius: 16px; object-fit: cover;" width="410"/>
-</div>
-</div>
-<div class="volunteer-slide" data-index="1">
-<div class="volunteer-content-left">
-<div class="quote-marks">Yemen Land LTD</div>
-<div class="volunteer-stars">
-<span class="star">★</span>
-<span class="star">★</span>
-<span class="star">★</span>
-<span class="star">★</span>
-<span class="star">★</span>
-</div>
-<p class="volunteer-description">
-                Como voluntario de atención al cliente en Yemen Land Ltd., brindé apoyo a los clientes, resolviendo sus consultas y garantizando una experiencia positiva. Este puesto mejoró mis habilidades de comunicación y mi capacidad para manejar las diversas necesidades de los clientes de manera efectiva.
+              <h3 class="volunteer-title">Voluntario de recaudación de fondos</h3>
+            </div>
+            <div class="volunteer-content-right">
+              <img alt="Professional Add" height="410" src="src/fundraiser-icon-design-free-png-3667729741.png"
+                style="border-radius: 16px; object-fit: cover;" width="410" />
+            </div>
+          </div>
+          <div class="volunteer-slide" data-index="1">
+            <div class="volunteer-content-left">
+              <div class="quote-marks">Yemen Land LTD</div>
+              <div class="volunteer-stars">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+              </div>
+              <p class="volunteer-description">
+                Como voluntario de atención al cliente en Yemen Land Ltd., brindé apoyo a los clientes, resolviendo sus
+                consultas y garantizando una experiencia positiva. Este puesto mejoró mis habilidades de comunicación y
+                mi capacidad para manejar las diversas necesidades de los clientes de manera efectiva.
               </p>
-<h3 class="volunteer-title">Voluntario de atención al cliente</h3>
-</div>
-<div class="volunteer-content-right">
-<img alt="Atomic Asher Volunteer Cover" height="410" src="src/9414083.png" style="border-radius: 16px; object-fit: cover;" width="410"/>
-</div>
-</div>
-<div class="volunteer-slide" data-index="2">
-<div class="volunteer-content-left">
-<div class="quote-marks">El programa de renovación</div>
-<div class="volunteer-stars">
-<span class="star">★</span>
-<span class="star">★</span>
-<span class="star">★</span>
-<span class="star">★</span>
-<span class="star">★</span>
-</div>
-<p class="volunteer-description">
-                Estoy participando en la organización del programa de actividades de vacaciones de verano para niños locales en la "escuela primaria de Kingston" de 8 a 12 años de edad a partir de actividades deportivas mixtas como; Baloncesto, Fútbol, ​​Boxeo etc... para llenar el tiempo libre de los niños con deportes que mejorarán su salud corporal.
+              <h3 class="volunteer-title">Voluntario de atención al cliente</h3>
+            </div>
+            <div class="volunteer-content-right">
+              <img alt="Atomic Asher Volunteer Cover" height="410" src="src/9414083.png"
+                style="border-radius: 16px; object-fit: cover;" width="410" />
+            </div>
+          </div>
+          <div class="volunteer-slide" data-index="2">
+            <div class="volunteer-content-left">
+              <div class="quote-marks">El programa de renovación</div>
+              <div class="volunteer-stars">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+              </div>
+              <p class="volunteer-description">
+                Estoy participando en la organización del programa de actividades de vacaciones de verano para niños
+                locales en la "escuela primaria de Kingston" de 8 a 12 años de edad a partir de actividades deportivas
+                mixtas como; Baloncesto, Fútbol, ​​Boxeo etc... para llenar el tiempo libre de los niños con deportes
+                que mejorarán su salud corporal.
               </p>
-<h3 class="volunteer-title">Programa de actividades vacacionales para jóvenes</h3>
-</div>
-<div class="volunteer-content-right">
-<img alt="Professional Add" height="410" src="src/png/testi.png" style="border-radius: 16px; object-fit: cover;" width="410"/>
-</div>
-</div>
-<!-- Hackatón 2025 Voluntario -->
-<div class="volunteer-slide" data-index="6">
-<div class="volunteer-content-left">
-<div class="quote-marks">Desarrolladores Deen</div>
-<div class="volunteer-stars">
-<span class="star">★</span>
-<span class="star">★</span>
-<span class="star">★</span>
-<span class="star">★</span>
-<span class="star">★</span>
-</div>
-<p class="volunteer-description">
-                En el Desarrolladores Deen Hackathon 2025, tuve la increíble oportunidad de colaborar con un equipo apasionado en un proyecto llamado Route AI, una solución innovadora diseñada para ayudar a las personas de países de bajos recursos a encontrar el hospital de emergencia más cercano a través de las rutas más seguras posibles. Reconociendo que muchas regiones sufren de infraestructura deficiente y condiciones de viaje peligrosas, nuestro proyecto tuvo como objetivo cerrar esta brecha que salva vidas utilizando inteligencia artificial y tecnologías en la nube. Desempeñé un papel clave como líder de seguridad de la información y diseñador de prototipos, garantizando que nuestro sistema fuera seguro y fácil de usar. 
+              <h3 class="volunteer-title">Programa de actividades vacacionales para jóvenes</h3>
+            </div>
+            <div class="volunteer-content-right">
+              <img alt="Professional Add" height="410" src="src/png/testi.png"
+                style="border-radius: 16px; object-fit: cover;" width="410" />
+            </div>
+          </div>
+          <!-- Hackatón 2025 Voluntario -->
+          <div class="volunteer-slide" data-index="6">
+            <div class="volunteer-content-left">
+              <div class="quote-marks">Desarrolladores Deen</div>
+              <div class="volunteer-stars">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+              </div>
+              <p class="volunteer-description">
+                En el Desarrolladores Deen Hackathon 2025, tuve la increíble oportunidad de colaborar con un equipo
+                apasionado en un proyecto llamado Route AI, una solución innovadora diseñada para ayudar a las personas
+                de países de bajos recursos a encontrar el hospital de emergencia más cercano a través de las rutas más
+                seguras posibles. Reconociendo que muchas regiones sufren de infraestructura deficiente y condiciones de
+                viaje peligrosas, nuestro proyecto tuvo como objetivo cerrar esta brecha que salva vidas utilizando
+                inteligencia artificial y tecnologías en la nube. Desempeñé un papel clave como líder de seguridad de la
+                información y diseñador de prototipos, garantizando que nuestro sistema fuera seguro y fácil de usar.
               </p>
-<h3 class="volunteer-title">Hackathon 2025 - Participante</h3>
-</div>
-<div class="volunteer-content-right">
-<img alt="Hackathon 2025" height="410" src="src/2165674.png" style="border-radius: 16px; object-fit: cover;" width="410"/>
-</div>
-</div>
-<!-- Colaborador voluntario de Github -->
-<div class="volunteer-slide" data-index="7">
-<div class="volunteer-content-left">
-<div class="quote-marks">Innovadores sociales globales en Github</div>
-<div class="volunteer-stars">
-<span class="star">★</span>
-<span class="star">★</span>
-<span class="star">★</span>
-<span class="star">★</span>
-<span class="star">★</span>
-</div>
-<p class="volunteer-description">
-                Como colaborador voluntario y pasante en Global Social Innovators, estoy colaborando con colegas experimentados para desarrollar la próxima aplicación SaaS móvil de GSI para plataformas iOS y Android. Al trabajar con tecnologías que incluyen Node.js, Pitón y Flutter, contribuyo a soluciones innovadoras que abordan desafíos sociales mientras adquiero experiencia práctica en desarrollo móvil multiplataforma junto con un equipo talentoso y experimentado.
+              <h3 class="volunteer-title">Hackathon 2025 - Participante</h3>
+            </div>
+            <div class="volunteer-content-right">
+              <img alt="Hackathon 2025" height="410" src="src/2165674.png"
+                style="border-radius: 16px; object-fit: cover;" width="410" />
+            </div>
+          </div>
+          <!-- Colaborador voluntario de Github -->
+          <div class="volunteer-slide" data-index="7">
+            <div class="volunteer-content-left">
+              <div class="quote-marks">Innovadores sociales globales en Github</div>
+              <div class="volunteer-stars">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+              </div>
+              <p class="volunteer-description">
+                Como colaborador voluntario y pasante en Global Social Innovators, estoy colaborando con colegas
+                experimentados para desarrollar la próxima aplicación SaaS móvil de GSI para plataformas iOS y Android.
+                Al trabajar con tecnologías que incluyen Node.js, Pitón y Flutter, contribuyo a soluciones innovadoras
+                que abordan desafíos sociales mientras adquiero experiencia práctica en desarrollo móvil multiplataforma
+                junto con un equipo talentoso y experimentado.
               </p>
-<h3 class="volunteer-title">Colaborador voluntario de GitHub</h3>
-</div>
-<div class="volunteer-content-right">
-<img alt="Colaborador voluntario de GitHub" height="410" src="src/3242257.png" style="border-radius: 16px; object-fit: cover;" width="410"/>
-</div>
-</div>
-</div>
-<!-- Fin del .volunteer-track -->
-</div>
-</div>
-<script>
+              <h3 class="volunteer-title">Colaborador voluntario de GitHub</h3>
+            </div>
+            <div class="volunteer-content-right">
+              <img alt="Colaborador voluntario de GitHub" height="410" src="src/3242257.png"
+                style="border-radius: 16px; object-fit: cover;" width="410" />
+            </div>
+          </div>
+        </div>
+        <!-- Fin del .volunteer-track -->
+      </div>
+    </div>
+    <script>
       // Make sure this script only runs once
-      (function() {
+      (function () {
         if (window.__volunteerArrowScriptLoaded) return;
         window.__volunteerArrowScriptLoaded = true;
 
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
           const slides = document.querySelectorAll('.volunteer-slide');
           const nextBtn = document.getElementById('volunteerNext');
           const prevBtn = document.getElementById('volunteerPrev');
@@ -1003,13 +1208,13 @@
           showSlide(currentIndex);
 
           if (nextBtn) {
-            nextBtn.addEventListener('click', function() {
+            nextBtn.addEventListener('click', function () {
               currentIndex = (currentIndex + 1) % slides.length;
               showSlide(currentIndex);
             });
           }
           if (prevBtn) {
-            prevBtn.addEventListener('click', function() {
+            prevBtn.addEventListener('click', function () {
               currentIndex = (currentIndex - 1 + slides.length) % slides.length;
               showSlide(currentIndex);
             });
@@ -1017,220 +1222,478 @@
         });
       })();
     </script>
-</section>
-<!-- Certifications Section starts -->
-<section class="projects-section-container" id="credentials">
-<div class="projects-section-div">
-<div class="section-heading" data-aos="fade-up">
-<h2 aria-label="My certifications starts from here" class="section-heading-article" tabindex="0">
+  </section>
+  <!-- Certifications Section starts -->
+  <section class="projects-section-container" id="credentials">
+    <div class="projects-section-div">
+      <div class="section-heading" data-aos="fade-up">
+        <h2 aria-label="My certifications starts from here" class="section-heading-article" tabindex="0">
           &lt;/Principales Certificaciones&gt;
         </h2>
-<p class="sectionHeadingP"></p>
-</div>
-<div aria-label="Certificates carousel" class="cert-slider">
-<div class="cert-track"><div class="cert-card" data-aos="fade-up">
-<div class="cert-title">Seguridad+</div>
-<img alt="Google Cybersecurity certificate" class="cert-image" src="Seguridad+-png.png" style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;"/>
-<div class="cert-sub">CompTIA | Fecha: noviembre de 2025</div>
-<p class="cert-desc">Tener la certificación Seguridad+ demuestra una sólida comprensión de los conceptos esenciales de ciberseguridad, incluida la seguridad de la red, la gestión de riesgos y el análisis de amenazas.
-Demuestra la capacidad de implementar las mejores prácticas de seguridad y responder eficazmente a las amenazas cibernéticas del mundo real.</p>
-<button class="cert-validate-btn">
-<a href="https://www.credly.com/badges/5f2803d0-d011-4ac1-9982-b25f6b1b7d84/linked_in_profile" style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</button>
-</div><div class="cert-card" data-aos="fade-up">
-<div class="cert-title">SC-900</div>
-<img alt="Google Cybersecurity certificate" class="cert-image" src="src/SC-900 badge.png" style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;"/>
-<div class="cert-sub">MS, Azure | Fecha: junio de 2025</div>
-<p class="cert-desc">Este es mi primer paso para convertirme en Seguridad en la Nube. Estoy concentrado, comprometido y hambriento de aprender más. A continuación: certificaciones de Azure más avanzadas, proyectos prácticos y trabajo de laboratorio para aplicar estos conceptos en entornos del mundo real.</p>
-<button class="cert-validate-btn">
-<a href="https://learn.microsoft.com/en-us/users/MohammedWaleedZuoriki-3494/credentials/9F20245836A18FA1?ref=https%3A%2F%2Fwww.linkedin.com%2F" style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</button>
-</div><div class="cert-card" data-aos="fade-up" data-aos-delay="150">
-<div class="cert-title">LFS101: Introducción a Linux</div>
-<img alt="AWS Cloud Practitioner certificate" class="cert-image" src="src/linux badge.png" style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;"/>
-<div class="cert-sub">Fundación Linux | Fecha: agosto de 2025</div>
-<p class="cert-desc">La insignia de Introducción a Linux ha adquirido las habilidades para navegar y administrar de manera efectiva las configuraciones en las principales distribuciones de Linux. Utilizan tanto la interfaz gráfica como la línea de comandos de manera competente.</p>
-<div class="cert-meta">Fundacional</div>
-<button class="cert-validate-btn">
-<a href="https://www.credly.com/badges/cb7f29ee-2ba7-4d37-8af9-6799bf032f1b/public_url" style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</button>
-</div><div class="cert-card" data-aos="fade-up" data-aos-delay="300">
-<div class="cert-title">Hacker ético</div>
-<img alt="CompTIA Seguridad+ certificate" class="cert-image" src="src/ethical hacker badge.png" style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;"/>
-<div class="cert-sub">Cisco | Fecha: febrero de 2025</div>
-<p class="cert-desc">El titular de esta credencial de nivel de estudiante tiene un amplio conocimiento de los requisitos legales y de cumplimiento y es competente en el arte de determinar el alcance, ejecutar, informar evaluaciones de vulnerabilidad y recomendar estrategias de mitigación.</p>
-<button class="cert-validate-btn">
-<a href="https://www.credly.com/badges/aa665ee9-5335-4d6d-b83a-1fbd02bf0ea1" style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</button>
-</div><div class="cert-card" data-aos="fade-up">
-<div class="cert-title">SC-900</div>
-<img alt="Google Cybersecurity certificate" class="cert-image" src="src/SC-900 badge.png" style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;"/>
-<div class="cert-sub">MS, Azure | Fecha: junio de 2025</div>
-<p class="cert-desc">Este es mi primer paso para convertirme en Seguridad en la Nube. Estoy concentrado, comprometido y hambriento de aprender más. A continuación: certificaciones de Azure más avanzadas, proyectos prácticos y trabajo de laboratorio para aplicar estos conceptos en entornos del mundo real.</p>
-<button class="cert-validate-btn">
-<a href="https://learn.microsoft.com/en-us/users/MohammedWaleedZuoriki-3494/credentials/9F20245836A18FA1?ref=https%3A%2F%2Fwww.linkedin.com%2F" style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</button>
-</div><div class="cert-card" data-aos="fade-up" data-aos-delay="150">
-<div class="cert-title">LFS101: Introducción a Linux</div>
-<img alt="AWS Cloud Practitioner certificate" class="cert-image" src="src/linux badge.png" style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;"/>
-<div class="cert-sub">Fundación Linux | Fecha: agosto de 2025</div>
-<p class="cert-desc">La insignia de Introducción a Linux ha adquirido las habilidades para navegar y administrar de manera efectiva las configuraciones en las principales distribuciones de Linux. Utilizan tanto la interfaz gráfica como la línea de comandos de manera competente.</p>
-<div class="cert-meta">Fundacional</div>
-<button class="cert-validate-btn">
-<a href="https://www.credly.com/badges/cb7f29ee-2ba7-4d37-8af9-6799bf032f1b/public_url" style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</button>
-</div><div class="cert-card" data-aos="fade-up" data-aos-delay="300">
-<div class="cert-title">Hacker ético</div>
-<img alt="CompTIA Seguridad+ certificate" class="cert-image" src="src/ethical hacker badge.png" style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;"/>
-<div class="cert-sub">Cisco | Fecha: febrero de 2025</div>
-<p class="cert-desc">El titular de esta credencial de nivel de estudiante tiene un amplio conocimiento de los requisitos legales y de cumplimiento y es competente en el arte de determinar el alcance, ejecutar, informar evaluaciones de vulnerabilidad y recomendar estrategias de mitigación.</p>
-<button class="cert-validate-btn">
-<a href="https://www.credly.com/badges/aa665ee9-5335-4d6d-b83a-1fbd02bf0ea1" style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</button>
-</div><div class="cert-card" data-aos="fade-up">
-<div class="cert-title">Seguridad+</div>
-<img alt="Google Cybersecurity certificate" class="cert-image" src="Seguridad+-png.png" style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;"/>
-<div class="cert-sub">CompTIA | Fecha: noviembre de 2025</div>
-<p class="cert-desc">Tener la certificación Seguridad+ demuestra una sólida comprensión de los conceptos esenciales de ciberseguridad, incluida la seguridad de la red, la gestión de riesgos y el análisis de amenazas.
-Demuestra la capacidad de implementar las mejores prácticas de seguridad y responder eficazmente a las amenazas cibernéticas del mundo real.</p>
-<button class="cert-validate-btn">
-<a href="https://www.credly.com/badges/5f2803d0-d011-4ac1-9982-b25f6b1b7d84/linked_in_profile" style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</button>
-</div><div class="cert-card" data-aos="fade-up">
-<div class="cert-title">SC-900</div>
-<img alt="Google Cybersecurity certificate" class="cert-image" src="src/SC-900 badge.png" style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;"/>
-<div class="cert-sub">MS, Azure | Fecha: junio de 2025</div>
-<p class="cert-desc">Este es mi primer paso para convertirme en Seguridad en la Nube. Estoy concentrado, comprometido y hambriento de aprender más. A continuación: certificaciones de Azure más avanzadas, proyectos prácticos y trabajo de laboratorio para aplicar estos conceptos en entornos del mundo real.</p>
-<button class="cert-validate-btn">
-<a href="https://learn.microsoft.com/en-us/users/MohammedWaleedZuoriki-3494/credentials/9F20245836A18FA1?ref=https%3A%2F%2Fwww.linkedin.com%2F" style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</button>
-</div><div class="cert-card" data-aos="fade-up" data-aos-delay="150">
-<div class="cert-title">LFS101: Introducción a Linux</div>
-<img alt="AWS Cloud Practitioner certificate" class="cert-image" src="src/linux badge.png" style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;"/>
-<div class="cert-sub">Fundación Linux | Fecha: agosto de 2025</div>
-<p class="cert-desc">La insignia de Introducción a Linux ha adquirido las habilidades para navegar y administrar de manera efectiva las configuraciones en las principales distribuciones de Linux. Utilizan tanto la interfaz gráfica como la línea de comandos de manera competente.</p>
-<div class="cert-meta">Fundacional</div>
-<button class="cert-validate-btn">
-<a href="https://www.credly.com/badges/cb7f29ee-2ba7-4d37-8af9-6799bf032f1b/public_url" style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</button>
-</div><div class="cert-card" data-aos="fade-up" data-aos-delay="300">
-<div class="cert-title">Hacker ético</div>
-<img alt="CompTIA Seguridad+ certificate" class="cert-image" src="src/ethical hacker badge.png" style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;"/>
-<div class="cert-sub">Cisco | Fecha: febrero de 2025</div>
-<p class="cert-desc">El titular de esta credencial de nivel de estudiante tiene un amplio conocimiento de los requisitos legales y de cumplimiento y es competente en el arte de determinar el alcance, ejecutar, informar evaluaciones de vulnerabilidad y recomendar estrategias de mitigación.</p>
-<button class="cert-validate-btn">
-<a href="https://www.credly.com/badges/aa665ee9-5335-4d6d-b83a-1fbd02bf0ea1" style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</button>
-</div><div class="cert-card" data-aos="fade-up">
-<div class="cert-title">SC-900</div>
-<img alt="Google Cybersecurity certificate" class="cert-image" src="src/SC-900 badge.png" style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;"/>
-<div class="cert-sub">MS, Azure | Fecha: junio de 2025</div>
-<p class="cert-desc">Este es mi primer paso para convertirme en Seguridad en la Nube. Estoy concentrado, comprometido y hambriento de aprender más. A continuación: certificaciones de Azure más avanzadas, proyectos prácticos y trabajo de laboratorio para aplicar estos conceptos en entornos del mundo real.</p>
-<button class="cert-validate-btn">
-<a href="https://learn.microsoft.com/en-us/users/MohammedWaleedZuoriki-3494/credentials/9F20245836A18FA1?ref=https%3A%2F%2Fwww.linkedin.com%2F" style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</button>
-</div><div class="cert-card" data-aos="fade-up" data-aos-delay="150">
-<div class="cert-title">LFS101: Introducción a Linux</div>
-<img alt="AWS Cloud Practitioner certificate" class="cert-image" src="src/linux badge.png" style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;"/>
-<div class="cert-sub">Fundación Linux | Fecha: agosto de 2025</div>
-<p class="cert-desc">La insignia de Introducción a Linux ha adquirido las habilidades para navegar y administrar de manera efectiva las configuraciones en las principales distribuciones de Linux. Utilizan tanto la interfaz gráfica como la línea de comandos de manera competente.</p>
-<div class="cert-meta">Fundacional</div>
-<button class="cert-validate-btn">
-<a href="https://www.credly.com/badges/cb7f29ee-2ba7-4d37-8af9-6799bf032f1b/public_url" style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</button>
-</div><div class="cert-card" data-aos="fade-up" data-aos-delay="300">
-<div class="cert-title">Hacker ético</div>
-<img alt="CompTIA Seguridad+ certificate" class="cert-image" src="src/ethical hacker badge.png" style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;"/>
-<div class="cert-sub">Cisco | Fecha: febrero de 2025</div>
-<p class="cert-desc">El titular de esta credencial de nivel de estudiante tiene un amplio conocimiento de los requisitos legales y de cumplimiento y es competente en el arte de determinar el alcance, ejecutar, informar evaluaciones de vulnerabilidad y recomendar estrategias de mitigación.</p>
-<button class="cert-validate-btn">
-<a href="https://www.credly.com/badges/aa665ee9-5335-4d6d-b83a-1fbd02bf0ea1" style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
-<svg height="10px" viewbox="0 0 13 10" width="15px">
-<path d="M1,5 L11,5"></path>
-<polyline points="8 1 12 5 8 9"></polyline>
-</svg>
-</button>
-</div></div>
-</div></div></section>
-<!-- Certifications Section ends -->
-<!-- footer ends here -->
-<footer id="footer">
-<button class="fas" id="backtotopbutton" onclick="scrolltoTopfunction()">
-<article aria-label="Back to top">←VOLVER ARRIBA</article>
-</button>
-<div class="footer-background">
-<div class="footer-blob"></div>
-</div>
-<div class="footer-foreground">
-<div class="footercontainer">
-<div class="two-words">
-<article aria-label="Learning, Living, and Leveling Up, my quote" tabindex="0">
+        <p class="sectionHeadingP"></p>
+      </div>
+      <div aria-label="Certificates carousel" class="cert-slider">
+        <div class="cert-track cert-track-left">
+          <div class="cert-card" data-aos="fade-up">
+            <div class="cert-title">Seguridad+</div>
+            <img alt="Google Cybersecurity certificate" class="cert-image" src="Seguridad+-png.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">CompTIA | Fecha: noviembre de 2025</div>
+            <p class="cert-desc">Tener la certificación Seguridad+ demuestra una sólida comprensión de los conceptos
+              esenciales de ciberseguridad, incluida la seguridad de la red, la gestión de riesgos y el análisis de
+              amenazas.
+              Demuestra la capacidad de implementar las mejores prácticas de seguridad y responder eficazmente a las
+              amenazas cibernéticas del mundo real.</p>
+            <button class="cert-validate-btn">
+              <a href="https://www.credly.com/badges/5f2803d0-d011-4ac1-9982-b25f6b1b7d84/linked_in_profile"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up">
+            <div class="cert-title">SC-900</div>
+            <img alt="Google Cybersecurity certificate" class="cert-image" src="src/SC-900 badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">MS, Azure | Fecha: junio de 2025</div>
+            <p class="cert-desc">Este es mi primer paso para convertirme en Seguridad en la Nube. Estoy concentrado,
+              comprometido y hambriento de aprender más. A continuación: certificaciones de Azure más avanzadas,
+              proyectos prácticos y trabajo de laboratorio para aplicar estos conceptos en entornos del mundo real.</p>
+            <button class="cert-validate-btn">
+              <a href="https://learn.microsoft.com/en-us/users/MohammedWaleedZuoriki-3494/credentials/9F20245836A18FA1?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="150">
+            <div class="cert-title">LFS101: Introducción a Linux</div>
+            <img alt="AWS Cloud Practitioner certificate" class="cert-image" src="src/linux badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">Fundación Linux | Fecha: agosto de 2025</div>
+            <p class="cert-desc">La insignia de Introducción a Linux ha adquirido las habilidades para navegar y
+              administrar de manera efectiva las configuraciones en las principales distribuciones de Linux. Utilizan
+              tanto la interfaz gráfica como la línea de comandos de manera competente.</p>
+            <div class="cert-meta">Fundacional</div>
+            <button class="cert-validate-btn">
+              <a href="https://www.credly.com/badges/cb7f29ee-2ba7-4d37-8af9-6799bf032f1b/public_url"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="cert-title">Hacker ético</div>
+            <img alt="CompTIA Seguridad+ certificate" class="cert-image" src="src/ethical hacker badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">Cisco | Fecha: febrero de 2025</div>
+            <p class="cert-desc">El titular de esta credencial de nivel de estudiante tiene un amplio conocimiento de
+              los requisitos legales y de cumplimiento y es competente en el arte de determinar el alcance, ejecutar,
+              informar evaluaciones de vulnerabilidad y recomendar estrategias de mitigación.</p>
+            <button class="cert-validate-btn">
+              <a href="https://www.credly.com/badges/aa665ee9-5335-4d6d-b83a-1fbd02bf0ea1"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up">
+            <div class="cert-title">SC-900</div>
+            <img alt="Google Cybersecurity certificate" class="cert-image" src="src/SC-900 badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">MS, Azure | Fecha: junio de 2025</div>
+            <p class="cert-desc">Este es mi primer paso para convertirme en Seguridad en la Nube. Estoy concentrado,
+              comprometido y hambriento de aprender más. A continuación: certificaciones de Azure más avanzadas,
+              proyectos prácticos y trabajo de laboratorio para aplicar estos conceptos en entornos del mundo real.</p>
+            <button class="cert-validate-btn">
+              <a href="https://learn.microsoft.com/en-us/users/MohammedWaleedZuoriki-3494/credentials/9F20245836A18FA1?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="150">
+            <div class="cert-title">LFS101: Introducción a Linux</div>
+            <img alt="AWS Cloud Practitioner certificate" class="cert-image" src="src/linux badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">Fundación Linux | Fecha: agosto de 2025</div>
+            <p class="cert-desc">La insignia de Introducción a Linux ha adquirido las habilidades para navegar y
+              administrar de manera efectiva las configuraciones en las principales distribuciones de Linux. Utilizan
+              tanto la interfaz gráfica como la línea de comandos de manera competente.</p>
+            <div class="cert-meta">Fundacional</div>
+            <button class="cert-validate-btn">
+              <a href="https://www.credly.com/badges/cb7f29ee-2ba7-4d37-8af9-6799bf032f1b/public_url"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up">
+            <div class="cert-title">Seguridad+</div>
+            <img alt="Google Cybersecurity certificate" class="cert-image" src="Seguridad+-png.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">CompTIA | Fecha: noviembre de 2025</div>
+            <p class="cert-desc">Tener la certificación Seguridad+ demuestra una sólida comprensión de los conceptos
+              esenciales de ciberseguridad, incluida la seguridad de la red, la gestión de riesgos y el análisis de
+              amenazas.
+              Demuestra la capacidad de implementar las mejores prácticas de seguridad y responder eficazmente a las
+              amenazas cibernéticas del mundo real.</p>
+            <button class="cert-validate-btn">
+              <a href="https://www.credly.com/badges/5f2803d0-d011-4ac1-9982-b25f6b1b7d84/linked_in_profile"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up">
+            <div class="cert-title">SC-900</div>
+            <img alt="Google Cybersecurity certificate" class="cert-image" src="src/SC-900 badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">MS, Azure | Fecha: junio de 2025</div>
+            <p class="cert-desc">Este es mi primer paso para convertirme en Seguridad en la Nube. Estoy concentrado,
+              comprometido y hambriento de aprender más. A continuación: certificaciones de Azure más avanzadas,
+              proyectos prácticos y trabajo de laboratorio para aplicar estos conceptos en entornos del mundo real.</p>
+            <button class="cert-validate-btn">
+              <a href="https://learn.microsoft.com/en-us/users/MohammedWaleedZuoriki-3494/credentials/9F20245836A18FA1?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="150">
+            <div class="cert-title">LFS101: Introducción a Linux</div>
+            <img alt="AWS Cloud Practitioner certificate" class="cert-image" src="src/linux badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">Fundación Linux | Fecha: agosto de 2025</div>
+            <p class="cert-desc">La insignia de Introducción a Linux ha adquirido las habilidades para navegar y
+              administrar de manera efectiva las configuraciones en las principales distribuciones de Linux. Utilizan
+              tanto la interfaz gráfica como la línea de comandos de manera competente.</p>
+            <div class="cert-meta">Fundacional</div>
+            <button class="cert-validate-btn">
+              <a href="https://www.credly.com/badges/cb7f29ee-2ba7-4d37-8af9-6799bf032f1b/public_url"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="cert-title">Hacker ético</div>
+            <img alt="CompTIA Seguridad+ certificate" class="cert-image" src="src/ethical hacker badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">Cisco | Fecha: febrero de 2025</div>
+            <p class="cert-desc">El titular de esta credencial de nivel de estudiante tiene un amplio conocimiento de
+              los requisitos legales y de cumplimiento y es competente en el arte de determinar el alcance, ejecutar,
+              informar evaluaciones de vulnerabilidad y recomendar estrategias de mitigación.</p>
+            <button class="cert-validate-btn">
+              <a href="https://www.credly.com/badges/aa665ee9-5335-4d6d-b83a-1fbd02bf0ea1"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up">
+            <div class="cert-title">SC-900</div>
+            <img alt="Google Cybersecurity certificate" class="cert-image" src="src/SC-900 badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">MS, Azure | Fecha: junio de 2025</div>
+            <p class="cert-desc">Este es mi primer paso para convertirme en Seguridad en la Nube. Estoy concentrado,
+              comprometido y hambriento de aprender más. A continuación: certificaciones de Azure más avanzadas,
+              proyectos prácticos y trabajo de laboratorio para aplicar estos conceptos en entornos del mundo real.</p>
+            <button class="cert-validate-btn">
+              <a href="https://learn.microsoft.com/en-us/users/MohammedWaleedZuoriki-3494/credentials/9F20245836A18FA1?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="150">
+            <div class="cert-title">LFS101: Introducción a Linux</div>
+            <img alt="AWS Cloud Practitioner certificate" class="cert-image" src="src/linux badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">Fundación Linux | Fecha: agosto de 2025</div>
+            <p class="cert-desc">La insignia de Introducción a Linux ha adquirido las habilidades para navegar y
+              administrar de manera efectiva las configuraciones en las principales distribuciones de Linux. Utilizan
+              tanto la interfaz gráfica como la línea de comandos de manera competente.</p>
+            <div class="cert-meta">Fundacional</div>
+            <button class="cert-validate-btn">
+              <a href="https://www.credly.com/badges/cb7f29ee-2ba7-4d37-8af9-6799bf032f1b/public_url"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="cert-track cert-track-right" style="margin-top: 30px;">
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="150">
+            <div class="cert-title">LFS101: Introducción a Linux</div>
+            <img alt="AWS Cloud Practitioner certificate" class="cert-image" src="src/linux badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">Fundación Linux | Fecha: agosto de 2025</div>
+            <p class="cert-desc">La insignia de Introducción a Linux ha adquirido las habilidades para navegar y
+              administrar de manera efectiva las configuraciones en las principales distribuciones de Linux. Utilizan
+              tanto la interfaz gráfica como la línea de comandos de manera competente.</p>
+            <div class="cert-meta">Fundacional</div>
+            <button class="cert-validate-btn">
+              <a href="https://www.credly.com/badges/cb7f29ee-2ba7-4d37-8af9-6799bf032f1b/public_url"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up">
+            <div class="cert-title">SC-900</div>
+            <img alt="Google Cybersecurity certificate" class="cert-image" src="src/SC-900 badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">MS, Azure | Fecha: junio de 2025</div>
+            <p class="cert-desc">Este es mi primer paso para convertirme en Seguridad en la Nube. Estoy concentrado,
+              comprometido y hambriento de aprender más. A continuación: certificaciones de Azure más avanzadas,
+              proyectos prácticos y trabajo de laboratorio para aplicar estos conceptos en entornos del mundo real.</p>
+            <button class="cert-validate-btn">
+              <a href="https://learn.microsoft.com/en-us/users/MohammedWaleedZuoriki-3494/credentials/9F20245836A18FA1?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="cert-title">Hacker ético</div>
+            <img alt="CompTIA Seguridad+ certificate" class="cert-image" src="src/ethical hacker badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">Cisco | Fecha: febrero de 2025</div>
+            <p class="cert-desc">El titular de esta credencial de nivel de estudiante tiene un amplio conocimiento de
+              los requisitos legales y de cumplimiento y es competente en el arte de determinar el alcance, ejecutar,
+              informar evaluaciones de vulnerabilidad y recomendar estrategias de mitigación.</p>
+            <button class="cert-validate-btn">
+              <a href="https://www.credly.com/badges/aa665ee9-5335-4d6d-b83a-1fbd02bf0ea1"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="150">
+            <div class="cert-title">LFS101: Introducción a Linux</div>
+            <img alt="AWS Cloud Practitioner certificate" class="cert-image" src="src/linux badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">Fundación Linux | Fecha: agosto de 2025</div>
+            <p class="cert-desc">La insignia de Introducción a Linux ha adquirido las habilidades para navegar y
+              administrar de manera efectiva las configuraciones en las principales distribuciones de Linux. Utilizan
+              tanto la interfaz gráfica como la línea de comandos de manera competente.</p>
+            <div class="cert-meta">Fundacional</div>
+            <button class="cert-validate-btn">
+              <a href="https://www.credly.com/badges/cb7f29ee-2ba7-4d37-8af9-6799bf032f1b/public_url"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up">
+            <div class="cert-title">SC-900</div>
+            <img alt="Google Cybersecurity certificate" class="cert-image" src="src/SC-900 badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">MS, Azure | Fecha: junio de 2025</div>
+            <p class="cert-desc">Este es mi primer paso para convertirme en Seguridad en la Nube. Estoy concentrado,
+              comprometido y hambriento de aprender más. A continuación: certificaciones de Azure más avanzadas,
+              proyectos prácticos y trabajo de laboratorio para aplicar estos conceptos en entornos del mundo real.</p>
+            <button class="cert-validate-btn">
+              <a href="https://learn.microsoft.com/en-us/users/MohammedWaleedZuoriki-3494/credentials/9F20245836A18FA1?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up">
+            <div class="cert-title">Seguridad+</div>
+            <img alt="Google Cybersecurity certificate" class="cert-image" src="Seguridad+-png.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">CompTIA | Fecha: noviembre de 2025</div>
+            <p class="cert-desc">Tener la certificación Seguridad+ demuestra una sólida comprensión de los conceptos
+              esenciales de ciberseguridad, incluida la seguridad de la red, la gestión de riesgos y el análisis de
+              amenazas.
+              Demuestra la capacidad de implementar las mejores prácticas de seguridad y responder eficazmente a las
+              amenazas cibernéticas del mundo real.</p>
+            <button class="cert-validate-btn">
+              <a href="https://www.credly.com/badges/5f2803d0-d011-4ac1-9982-b25f6b1b7d84/linked_in_profile"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="150">
+            <div class="cert-title">LFS101: Introducción a Linux</div>
+            <img alt="AWS Cloud Practitioner certificate" class="cert-image" src="src/linux badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">Fundación Linux | Fecha: agosto de 2025</div>
+            <p class="cert-desc">La insignia de Introducción a Linux ha adquirido las habilidades para navegar y
+              administrar de manera efectiva las configuraciones en las principales distribuciones de Linux. Utilizan
+              tanto la interfaz gráfica como la línea de comandos de manera competente.</p>
+            <div class="cert-meta">Fundacional</div>
+            <button class="cert-validate-btn">
+              <a href="https://www.credly.com/badges/cb7f29ee-2ba7-4d37-8af9-6799bf032f1b/public_url"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up">
+            <div class="cert-title">SC-900</div>
+            <img alt="Google Cybersecurity certificate" class="cert-image" src="src/SC-900 badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">MS, Azure | Fecha: junio de 2025</div>
+            <p class="cert-desc">Este es mi primer paso para convertirme en Seguridad en la Nube. Estoy concentrado,
+              comprometido y hambriento de aprender más. A continuación: certificaciones de Azure más avanzadas,
+              proyectos prácticos y trabajo de laboratorio para aplicar estos conceptos en entornos del mundo real.</p>
+            <button class="cert-validate-btn">
+              <a href="https://learn.microsoft.com/en-us/users/MohammedWaleedZuoriki-3494/credentials/9F20245836A18FA1?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="cert-title">Hacker ético</div>
+            <img alt="CompTIA Seguridad+ certificate" class="cert-image" src="src/ethical hacker badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">Cisco | Fecha: febrero de 2025</div>
+            <p class="cert-desc">El titular de esta credencial de nivel de estudiante tiene un amplio conocimiento de
+              los requisitos legales y de cumplimiento y es competente en el arte de determinar el alcance, ejecutar,
+              informar evaluaciones de vulnerabilidad y recomendar estrategias de mitigación.</p>
+            <button class="cert-validate-btn">
+              <a href="https://www.credly.com/badges/aa665ee9-5335-4d6d-b83a-1fbd02bf0ea1"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="150">
+            <div class="cert-title">LFS101: Introducción a Linux</div>
+            <img alt="AWS Cloud Practitioner certificate" class="cert-image" src="src/linux badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">Fundación Linux | Fecha: agosto de 2025</div>
+            <p class="cert-desc">La insignia de Introducción a Linux ha adquirido las habilidades para navegar y
+              administrar de manera efectiva las configuraciones en las principales distribuciones de Linux. Utilizan
+              tanto la interfaz gráfica como la línea de comandos de manera competente.</p>
+            <div class="cert-meta">Fundacional</div>
+            <button class="cert-validate-btn">
+              <a href="https://www.credly.com/badges/cb7f29ee-2ba7-4d37-8af9-6799bf032f1b/public_url"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up">
+            <div class="cert-title">SC-900</div>
+            <img alt="Google Cybersecurity certificate" class="cert-image" src="src/SC-900 badge.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">MS, Azure | Fecha: junio de 2025</div>
+            <p class="cert-desc">Este es mi primer paso para convertirme en Seguridad en la Nube. Estoy concentrado,
+              comprometido y hambriento de aprender más. A continuación: certificaciones de Azure más avanzadas,
+              proyectos prácticos y trabajo de laboratorio para aplicar estos conceptos en entornos del mundo real.</p>
+            <button class="cert-validate-btn">
+              <a href="https://learn.microsoft.com/en-us/users/MohammedWaleedZuoriki-3494/credentials/9F20245836A18FA1?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="cert-card" data-aos="fade-up">
+            <div class="cert-title">Seguridad+</div>
+            <img alt="Google Cybersecurity certificate" class="cert-image" src="Seguridad+-png.png"
+              style="height:130px; width:auto; display:block; margin-left:auto; margin-right:auto;" />
+            <div class="cert-sub">CompTIA | Fecha: noviembre de 2025</div>
+            <p class="cert-desc">Tener la certificación Seguridad+ demuestra una sólida comprensión de los conceptos
+              esenciales de ciberseguridad, incluida la seguridad de la red, la gestión de riesgos y el análisis de
+              amenazas.
+              Demuestra la capacidad de implementar las mejores prácticas de seguridad y responder eficazmente a las
+              amenazas cibernéticas del mundo real.</p>
+            <button class="cert-validate-btn">
+              <a href="https://www.credly.com/badges/5f2803d0-d011-4ac1-9982-b25f6b1b7d84/linked_in_profile"
+                style="color: inherit; text-decoration: none;"><span>Validar Certificado</span></a>
+              <svg height="10px" viewbox="0 0 13 10" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Certifications Section ends -->
+  <!-- footer ends here -->
+  <footer id="footer">
+    <button class="fas" id="backtotopbutton" onclick="scrolltoTopfunction()">
+      <article aria-label="Back to top">←VOLVER ARRIBA</article>
+    </button>
+    <div class="footer-background">
+      <div class="footer-blob"></div>
+    </div>
+    <div class="footer-foreground">
+      <div class="footercontainer">
+        <div class="two-words">
+          <article aria-label="Learning, Living, and Leveling Up, my quote" tabindex="0">
             "Aprender, Disciplinar, Seguir Creciendo"
           </article>
-</div>
-<div class="social-media-container">
-<div class="getintouch-heading">
-<article>Obtener en Touch();</article>
-</div>
-<style>
+        </div>
+        <div class="social-media-container">
+          <div class="getintouch-heading">
+            <article>Obtener en Touch();</article>
+          </div>
+          <style>
             .logos a .SocialHandle,
             .logos a #GmailLogo {
               transition: fill 0.2s, color 0.2s;
-              fill: white; /* original purple, fallback */
+              fill: white;
+              /* original purple, fallback */
               color: #a259ff;
             }
+
             .logos a:hover .SocialHandle,
             .logos a:focus .SocialHandle,
             .logos a:hover #GmailLogo,
@@ -1239,46 +1702,56 @@ Demuestra la capacidad de implementar las mejores prácticas de seguridad y resp
               color: #FFD600 !important;
             }
           </style>
-<div class="logos">
-<a aria-label="My Linkdin" href="https://www.linkedin.com/in/mohammed-zuoriki-856133250/" target="_blank"><svg class="SocialHandle" viewbox="0 0 448 512">
-<path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
-</svg></a>
-<a aria-label="My github" href="https://github.com/Code-tech77/" target="_blank"><svg class="SocialHandle" viewbox="0 0 496 512">
-<path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
-</svg></a>
-<a aria-label="My G mail" href="mailto:mohzouriki@gmail.com" target="_blank"><svg id="GmailLogo" viewbox="0 0 512 512">
-<path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"></path>
-</svg></a>
-</div>
-</div>
-<div class="footer-avatar-container">
-<img alt="animation-head" class="footer-avatar-img" id="footer-wala-avatar" src="src/footer2.png" style="width: 250px; height: 250px;"/>
-<div class="footer-avatar-face">
-</div>
-</div>
-<div class="footer-bottom">
-<article>
+          <div class="logos">
+            <a aria-label="My Linkdin" href="https://www.linkedin.com/in/mohammed-zuoriki-856133250/"
+              target="_blank"><svg class="SocialHandle" viewbox="0 0 448 512">
+                <path
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                </path>
+              </svg></a>
+            <a aria-label="My github" href="https://github.com/Code-tech77/" target="_blank"><svg class="SocialHandle"
+                viewbox="0 0 496 512">
+                <path
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                </path>
+              </svg></a>
+            <a aria-label="My G mail" href="mailto:mohzouriki@gmail.com" target="_blank"><svg id="GmailLogo"
+                viewbox="0 0 512 512">
+                <path
+                  d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z">
+                </path>
+              </svg></a>
+          </div>
+        </div>
+        <div class="footer-avatar-container">
+          <img alt="animation-head" class="footer-avatar-img" id="footer-wala-avatar" src="src/footer2.png"
+            style="width: 250px; height: 250px;" />
+          <div class="footer-avatar-face">
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <article>
             All rights reserved 2026 | Made by Mohammed Zuoriki
-            © 
+            ©
           </article>
-</div>
-</div>
-</div>
-</footer>
-<!-- footer ends here -->
-<script src="main.js"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer ends here -->
+  <script src="main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
     AOS.init();
   </script>
-<script>
+  <script>
     function openURL() {
       var url = "src/pdf/Vinod's Plan de estudios.pdf";
 
       window.open(url, "_blank");
     }
   </script>
-<script>
+  <script>
     const cursorInner = document.getElementById("cursor-inner");
     const cursorOuter = document.getElementById("cursor-outer");
     const links = document.querySelectorAll("a,label,button");
@@ -1313,18 +1786,18 @@ Demuestra la capacidad de implementar las mejores prácticas de seguridad y resp
       });
     });
   </script>
-<!-- Volunteer Carousel JavaScript -->
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
+  <!-- Volunteer Carousel JavaScript -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
       // Volunteer Carousel
       const volunteerTrack = document.getElementById('volunteerTrack');
       const volunteerSlides = volunteerTrack.querySelectorAll('.volunteer-slide');
       const prevBtn = document.getElementById('volunteerPrev');
       const nextBtn = document.getElementById('volunteerNext');
-      
+
       let currentSlideIndex = 0;
       let isAnimating = false;
-      
+
       // Initialize carousel
       function initCarousel() {
         // Hide all slides except the first one
@@ -1341,50 +1814,50 @@ Demuestra la capacidad de implementar las mejores prácticas de seguridad y resp
             slide.classList.remove('active');
           }
         });
-        
+
         updateButtonStates();
       }
-      
+
       // Show specific slide
       function showSlide(index) {
         if (isAnimating || index < 0 || index >= volunteerSlides.length) return;
-        
+
         isAnimating = true;
         const currentSlide = volunteerSlides[currentSlideIndex];
         const nextSlide = volunteerSlides[index];
-        
+
         // Determine slide direction
         const direction = index > currentSlideIndex ? 1 : -1;
-        
+
         // Animate current slide out
         currentSlide.style.opacity = '0';
         currentSlide.style.transform = `translateX(${-100 * direction}px)`;
-        
+
         setTimeout(() => {
           currentSlide.style.display = 'none';
           currentSlide.classList.remove('active');
-          
+
           // Show and animate next slide in
           nextSlide.style.display = 'flex';
           nextSlide.style.opacity = '0';
           nextSlide.style.transform = `translateX(${100 * direction}px)`;
-          
+
           // Force reflow
           nextSlide.offsetHeight;
-          
+
           nextSlide.style.opacity = '1';
           nextSlide.style.transform = 'translateX(0)';
           nextSlide.classList.add('active');
-          
+
           currentSlideIndex = index;
           updateButtonStates();
-          
+
           setTimeout(() => {
             isAnimating = false;
           }, 300);
         }, 300);
       }
-      
+
       // Update button states
       function updateButtonStates() {
         if (currentSlideIndex === 0) {
@@ -1394,7 +1867,7 @@ Demuestra la capacidad de implementar las mejores prácticas de seguridad y resp
           prevBtn.style.opacity = '1';
           prevBtn.style.pointerEvents = 'auto';
         }
-        
+
         if (currentSlideIndex === volunteerSlides.length - 1) {
           nextBtn.style.opacity = '0.3';
           nextBtn.style.pointerEvents = 'none';
@@ -1403,60 +1876,60 @@ Demuestra la capacidad de implementar las mejores prácticas de seguridad y resp
           nextBtn.style.pointerEvents = 'auto';
         }
       }
-      
+
       // Next slide function
       function nextSlide() {
         if (currentSlideIndex < volunteerSlides.length - 1 && !isAnimating) {
           showSlide(currentSlideIndex + 1);
         }
       }
-      
+
       // Previous slide function
       function prevSlide() {
         if (currentSlideIndex > 0 && !isAnimating) {
           showSlide(currentSlideIndex - 1);
         }
       }
-      
+
       // Add event listeners
       if (nextBtn) {
-        nextBtn.addEventListener('click', function(e) {
+        nextBtn.addEventListener('click', function (e) {
           e.preventDefault();
           nextSlide();
         });
       }
-      
+
       if (prevBtn) {
-        prevBtn.addEventListener('click', function(e) {
+        prevBtn.addEventListener('click', function (e) {
           e.preventDefault();
           prevSlide();
         });
       }
-      
+
       // Keyboard navigation
-      document.addEventListener('keydown', function(e) {
+      document.addEventListener('keydown', function (e) {
         if (e.key === 'ArrowRight') {
           nextSlide();
         } else if (e.key === 'ArrowLeft') {
           prevSlide();
         }
       });
-      
+
       // Touch/swipe support
       let startX = 0;
       let startY = 0;
-      
-      volunteerTrack.addEventListener('touchstart', function(e) {
+
+      volunteerTrack.addEventListener('touchstart', function (e) {
         startX = e.touches[0].clientX;
         startY = e.touches[0].clientY;
       });
-      
-      volunteerTrack.addEventListener('touchend', function(e) {
+
+      volunteerTrack.addEventListener('touchend', function (e) {
         const endX = e.changedTouches[0].clientX;
         const endY = e.changedTouches[0].clientY;
         const diffX = startX - endX;
         const diffY = Math.abs(startY - endY);
-        
+
         if (Math.abs(diffX) > 50 && diffY < 100) {
           if (diffX > 0) {
             nextSlide();
@@ -1465,19 +1938,20 @@ Demuestra la capacidad de implementar las mejores prácticas de seguridad y resp
           }
         }
       });
-      
+
       // Initialize the carousel
       initCarousel();
     });
   </script>
-<script src="https://buymeacoffee.com/onescan"></script>
-<script>
-  kofiWidgetOverlay.draw('vinodjangid07', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Support me',
-    'floating-chat.donateButton.background-color': '#794bc4',
-    'floating-chat.donateButton.text-color': '#fff'
-  });
-</script>
+  <script src="https://buymeacoffee.com/onescan"></script>
+  <script>
+    kofiWidgetOverlay.draw('vinodjangid07', {
+      'type': 'floating-chat',
+      'floating-chat.donateButton.text': 'Support me',
+      'floating-chat.donateButton.background-color': '#794bc4',
+      'floating-chat.donateButton.text-color': '#fff'
+    });
+  </script>
 </body>
+
 </html>
