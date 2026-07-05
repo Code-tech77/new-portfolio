@@ -32,9 +32,6 @@ Azure • Docker • Terraform • Kubernetes (learning)
 **Cybersecurity:**  
 Network Security • WAF • Identity & Access Management • Threat Modeling
 
-**Programming & Scripting:**  
-Python • JavaScript • Bash • HTML/CSS
-
 **Tools & Platforms:**  
 Linux • Git & GitHub • DaVinci Resolve • VS Code • Cursor IDE
 
