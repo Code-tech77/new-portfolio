@@ -1,36 +1,85 @@
-# This is my new Protoflio for my new study chapter in Uni 🎓
+# 👋 Hi, I'm Mohammed
 
-------
+🚀 Aspiring **Cloud Security Engineer** | 🛡️ Cybersecurity Student | ☁️ Cloud Enthusiast | 🎥 Content Creator
 
-## Home page 
-<img width="1919" height="913" alt="image" src="https://github.com/user-attachments/assets/a67563ad-00f7-43d2-98b5-d594bfded828" />
+---
 
-----
-## About Me page 
-<img width="1919" height="919" alt="image" src="https://github.com/user-attachments/assets/7ae48bad-8807-42d1-9809-193674f32b48" />
+## 🧠 About Me
 
-----
-## Founder page 
-<img width="1919" height="920" alt="image" src="https://github.com/user-attachments/assets/ccd75a1a-0087-4ea7-a588-6d63e011db1f" />
+I'm a university student passionate about **cybersecurity, cloud computing, and secure system design**.  
+Currently building my skills toward becoming a **Cloud Security Engineer**.
 
-----
-## Skills page 
-<img width="1916" height="915" alt="image" src="https://github.com/user-attachments/assets/ada501e3-4735-4a37-a020-1583a0e206bd" />
+I enjoy learning how systems work under the hood and breaking them down from a security perspective -> from Linux internals to cloud infrastructure and DevSecOps pipelines.
 
------
-## Projects page 
-<img width="1919" height="919" alt="image" src="https://github.com/user-attachments/assets/a101544f-ca22-46aa-9453-18687374f29e" />
+---
 
------
-## Volunteer page
-<img width="1919" height="918" alt="image" src="https://github.com/user-attachments/assets/4162d56d-b319-4e77-a7d0-07d18b657628" />
+## 💼 What I'm Working On
 
------
-## Certification page
-<img width="1919" height="923" alt="image" src="https://github.com/user-attachments/assets/9e1493e5-74af-4d02-908a-83064597b3a0" />
+I like building things that actually solve problems I come across in my day-to-day life, especially when it comes to tech, security, and productivity.
 
-----
-## Footer Section
-<img width="1919" height="917" alt="image" src="https://github.com/user-attachments/assets/2bc44166-bfad-4275-97c1-d8288eb64ade" />
+- 🛡️ Building hands-on cybersecurity & cloud homelab projects to understand how real systems are protected  
+- 🐧 Improving my Linux and networking skills by working with real-world setups instead of just theory  
+- 🎥 Creating educational content on YouTube to explain tech and cybersecurity in a simple, practical way  
+- 🧪 Love to be creator than consumer 
 
+---
 
+## 🧰 Tech Stack & Tools
+
+**Cloud & DevOps:**  
+Azure • Docker • Terraform • Kubernetes (learning)
+
+**Cybersecurity:**  
+Network Security • WAF • Identity & Access Management • Threat Modeling
+
+**Programming & Scripting:**  
+Python • JavaScript • Bash • HTML/CSS
+
+**Tools & Platforms:**  
+Linux • Git & GitHub • DaVinci Resolve • VS Code • Cursor IDE
+
+---
+
+## 📌 Featured Project
+
+🌐 **My Portfolio Website**  
+👉 https://code-tech77.github.io/new-portfolio/
+
+A personal portfolio showcasing my:
+- Projects
+- Skills
+- Learning journey
+- Things outside my Linkedin profile 
+
+---
+
+## 📈 Current Goals
+
+- Become Azure Security Engineer certified  
+- Build a full cloud security homelab (multi-node setup)  
+- Launch real-world projects that solves a problem I face in my daily basis
+- Grow my technical portfolio for wide range of opportunities 
+- Strengthen my skills 
+
+---
+## 🌍 Things I Enjoy Outside Tech
+
+Outside of tech, I like keeping life simple, active, and social.
+
+- 💪 Calisthenics : training with bodyweight and building strength and control  
+- ✈️ Travelling : exploring new places, cultures, and perspectives  (I have traveled to : 🇦🇪 🇨🇭 🇮🇹 🏴󠁧󠁢󠁷󠁬󠁳󠁿 🏴󠁧󠁢󠁳󠁣󠁴󠁿 🇴🇲 🇬🇪 🇯🇴 🇸🇾 🇸🇦)
+- ☕ Coffee enthusiast : enjoying good coffee and trying different cafés  
+- 🤝 Meeting new people : learning from different experiences and conversations  
+
+## 🤝 Let's Connect
+
+- 🌐 Portfolio: https://code-tech77.github.io/new-portfolio/  
+- 💻 GitHub: https://github.com/code-tech77  
+- 📺 YouTube: https://www.youtube.com/@CyberTutor24 
+- 💼 Open to collaboration, internships, and cloud/security projects  
+
+---
+
+## ⚡ Fun Fact
+
+I'm the oldest out of my siblings 😞
